@@ -1,5 +1,6 @@
 .container {
-  padding: 0 2rem;
+  /*padding: 0 2rem;*/
+  /*background-color: #f5fffa;*/
 }
 
 .main {
@@ -108,12 +109,49 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+.alinhamento_cards_candidatos{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+  border: 1px solid red;
+}
+
+.luca{
+  height:auto ;
+  background-color:grey ;
+  text-align:center ;
+  border-radius:10px ;
+  padding:10px;
+  max-width:55%;
+  margin:0 auto;
+}
+
+
+.caroussel{
+  height:auto;
+  text-align:center;
+  max-width:60%;
+  margin:0 auto;
+}
+
+@media (max-width: 900px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+  .luca{
+    max-width:95%;
+  }
+  .caroussel{
+    max-width:100%;
+  }
 }
+
+
+
 
 @media (prefers-color-scheme: dark) {
   .card,

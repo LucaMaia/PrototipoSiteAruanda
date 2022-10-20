@@ -1,0 +1,74 @@
+/*.card_candidatos {*/
+/*    background: #10778D;*/
+/*    border-radius: 20px;*/
+/*    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;*/
+/*}*/
+
+.card_action_area{
+    height:400px;
+}
+
+.container{
+    display:flex;
+}
+
+.card2{
+    width:300px;
+    height:300px;
+    border-radius:20px; 
+    margin:0 auto;
+    padding:20px;
+}
+
+.imagem_alinhamento{
+    display:flex;
+    flex-wrap:wrap;
+    padding-top:20px;
+}
+
+@media (max-width: 1500px) {
+    .card {
+        background: #10778D;
+        border-radius: 20px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        height:420px;
+    }
+   .card_action_area{
+       height:420px;
+       width: 100%;
+   }
+}
+
+@media (max-width: 600px) {
+    .card {
+        height:500px;
+        width: auto;
+    }
+    .card_action_area{
+        height:500px;
+        width: auto;
+    }
+}
+
+@media (max-width: 475px) {
+    .card {
+        height:500px;
+        width: auto;
+    }
+    .card_action_area{
+        height:500px;
+        width: auto;
+    }
+}
+
+@media (max-width: 380px) {
+    .card {
+        height:600px;
+        width: auto;
+    }
+    .card_action_area{
+        height:600px;
+        width: auto;
+    }
+}
+
