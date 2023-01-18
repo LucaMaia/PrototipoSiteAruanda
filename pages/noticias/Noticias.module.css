@@ -1,0 +1,23 @@
+.text{
+    text-align: center;
+}
+
+.alinhamento_iframe{
+    justify-content:center;
+    display:flex;
+}
+
+.iframe{
+    width:1640px;
+    height:480px;
+    border-radius: 20px;
+}
+
+.teste {
+    display:flex;
+    justify-content:center;
+    margin:80px;
+    padding:80px;
+    border: 1px solid red;
+}
+
