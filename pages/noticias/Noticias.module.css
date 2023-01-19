@@ -2,15 +2,14 @@
     text-align: center;
 }
 
-.alinhamento_iframe{
-    justify-content:center;
-    display:flex;
+.alinhamento_cards{
+    margin: 0 auto;
+    max-width: 800px;
 }
 
-.iframe{
-    width:1640px;
-    height:480px;
-    border-radius: 20px;
+@media (max-width: 800px) {
+    .alinhamento_cards{
+        width: auto;
+    }
 }
-
 

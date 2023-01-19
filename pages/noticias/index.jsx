@@ -31,17 +31,16 @@ export default function Noticias(){
                 link={navbar}
                 image="/labslogo.svg"
             />
-            <h1 className={styles.text}>
-                Eventos Aruanda capoeira
-            </h1>
+                <h1 className={styles.text}>
+                    Eventos Aruanda capoeira
+                </h1>
 
-            <div className={styles.alinhamento_iframe}>
-                <CardMuiComponent
-                    link={cardsMui}
-                    color="gray"
-                    width="750"
-                />
-            </div>
+                <div className={styles.alinhamento_cards}>
+                    <CardMuiComponent
+                        link={cardsMui}
+                        color="gray"
+                    />
+                </div>
             <Footer/>
         </>
     )

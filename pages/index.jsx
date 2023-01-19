@@ -46,9 +46,9 @@ export default function Home() {
 
         {/*<Topo/>*/}
 
-        <div className={styles.caroussel}>
+        {/*<div className={styles.caroussel}>*/}
             <CarouselComponent link={carroussel}/>
-        </div>
+        {/*</div>*/}
 
         <h2 className={styles.text_historia} id="jornada">
             Conheça a nossa história

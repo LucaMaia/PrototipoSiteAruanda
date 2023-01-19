@@ -7,7 +7,7 @@ import { CardActionArea } from '@mui/material';
 
 export default function CardMuiComponent({link, color, width}) {
     return (
-        <div style={{padding:"60px"}}>
+        <div>
             {link.map((item,index) => {
                 return (
                     <Card sx={{ maxWidth: parseInt(width) }}
