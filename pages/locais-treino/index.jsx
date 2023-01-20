@@ -24,6 +24,9 @@ export default function LocaisTreino(){
                 link={navbar}
                 image="/labslogo.svg"
             />
+            <div style={{paddingTop:"120px"}}>
+
+            </div>
             <h1 className={styles.text}>
                 Locais de Treino Aruanda Capoeira
             </h1>

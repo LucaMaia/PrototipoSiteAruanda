@@ -31,6 +31,7 @@ export default function Noticias(){
                 link={navbar}
                 image="/labslogo.svg"
             />
+            <div style={{paddingTop:"120px"}}>
                 <h1 className={styles.text}>
                     Eventos Aruanda capoeira
                 </h1>
@@ -41,6 +42,8 @@ export default function Noticias(){
                         color="gray"
                     />
                 </div>
+            </div>
+
             <Footer/>
         </>
     )
