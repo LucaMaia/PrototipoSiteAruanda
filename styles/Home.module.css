@@ -29,6 +29,7 @@
 .text_historia{
   text-align:center;
   padding:40px;
+  background-color: #c2c2c2;
 }
 
 .text_mestres{
@@ -143,6 +144,7 @@
   width: 90%;
   margin: 0 auto;
   padding: 40px;
+  /*border:1px solid red*/
 }
 
 
@@ -160,6 +162,18 @@
     width:100%;
   }
 }
+
+@media (min-width: 1700px) {
+  .alinhamento_cards_candidatos{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+  }
+}
+
 
 
 @media (prefers-color-scheme: dark) {

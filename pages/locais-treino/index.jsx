@@ -4,11 +4,11 @@ import styles from "../../styles/Home.module.css"
 // Components
 import NavbarComponent from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import Icons from "../../subpages/Icons";
 
 let navbar = [
     {"name":"Página Principal","href":"/","number":"1"},
-    {"name":"Instagram","href":"https://www.instagram.com/aruanda.capoeira/","number":"2"},
-    {"name":"Notícias","href":"/noticias","number":"3"},
+    {"name":"Notícias","href":"/noticias","number":"2"},
 ]
 
 export default function LocaisTreino(){
@@ -38,6 +38,8 @@ export default function LocaisTreino(){
                 >
                 </iframe>
             </div>
+
+            <Icons/>
             <Footer/>
         </>
     )

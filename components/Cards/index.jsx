@@ -37,7 +37,7 @@ export default function CardComponent({information, name , job, src,width}) {
                       {information}
                     </Typography>
                 <div className={styles.imagem_alinhamento}>
-                  <ImageAvatars src={src}/>
+                  <ImageAvatars src={src} width="100" height="100"/>
                     <div style={{
                         padding:"10px",
                         paddingTop:"30px"

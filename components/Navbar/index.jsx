@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function NavbarComponent({link,image}) {
     return (
-        <Navbar collapseOnSelect expand="lg" variant="dark" style={{backgroundColor:"#07456C", overflow:"hidden", position:"fixed", width:"100%", zIndex:"100"}}>
+        <Navbar collapseOnSelect expand="lg" variant="dark" style={{backgroundColor:"#07456C", overflow:"hidden", position:"fixed", width:"100vw", zIndex:"100"}}>
             <Container>
                 <Navbar.Brand href="/" style={{display:"flex", alignItems:"center"}}>
                     <Image

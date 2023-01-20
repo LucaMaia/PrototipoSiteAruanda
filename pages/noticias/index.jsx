@@ -5,11 +5,11 @@ import styles from "./Noticias.module.css"
 import NavbarComponent from "../../components/Navbar";
 import CardMuiComponent from "../../components/CardMUI";
 import Footer from "../../components/Footer";
+import Icons from "../../subpages/Icons";
 
 let navbar = [
     {"name":"Página Principal","href":"/","number":"1"},
-    {"name":"Instagram","href":"https://www.instagram.com/aruanda.capoeira/","number":"2"},
-    {"name":"Locais de Treino","href":"/locais-treino","number":"3"},
+    {"name":"Locais de Treino","href":"/locais-treino","number":"2"},
 ]
 
 let cardsMui = [
@@ -43,6 +43,8 @@ export default function Noticias(){
                     />
                 </div>
             </div>
+
+            <Icons/>
 
             <Footer/>
         </>
