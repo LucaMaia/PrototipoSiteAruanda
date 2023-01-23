@@ -5,7 +5,6 @@ import styles from '../styles/Home.module.css'
 import NavbarComponent from "../components/Navbar";
 import CarouselComponent from "../components/Caroussel";
 import Footer from "../components/Footer";
-import CardProcessoSeletivo from "../components/CardProcessoSeletivo";
 import MiniCard from "../components/MiniCard";
 
 // Subpages
@@ -101,19 +100,23 @@ let miniCards = [
         "label": "SEG/QUAR/SEX",
         "text": "Mestra Michellinha",
         "hour":"18:30 ás 19:30",
-        "backgroundColor":"#07456C"
+        "backgroundColor":"#07456C",
+        "href":"https://wa.me/5561983439530",
     },
     {
         "label": "TER/QUIN",
         "text": "Mestre Igor" ,
         "hour":"19:30 ás 20:30",
-        "backgroundColor":"#07456C"
+        "backgroundColor":"#07456C",
+        "href":"https://wa.me/5561983439530",
     },
     {
         "label": "TER/QUIN",
         "text": "Mestre Carlos",
         "hour":"18:30 ás 19:30",
-        "backgroundColor":"#07456C"
+        "backgroundColor":"#07456C",
+        "href":"https://wa.me/5561983439530",
+
     },
 ]
 
@@ -187,21 +190,6 @@ export default function Home() {
 
         <CardBeneficios link={cardBeneficios}/>
 
-        {/*{cardsProcessoSeletivo.map((item,index) => {*/}
-        {/*    return (*/}
-        {/*        <div key={index} style={{width:"90%", margin:"0 auto"}}>*/}
-        {/*            <CardProcessoSeletivo*/}
-        {/*                title={item.title}*/}
-        {/*                description={item.description}*/}
-        {/*                number={item.number}*/}
-        {/*                date={item.date}*/}
-        {/*                text={item.text}*/}
-        {/*                image={item.image}*/}
-        {/*            />*/}
-        {/*        </div>*/}
-        {/*    )*/}
-        {/*})}*/}
-
         <h2 className={styles.text_horarios} id="horarios">
             Quadro de Horários Aruanda Brasília - DF
         </h2>
@@ -222,12 +210,12 @@ export default function Home() {
                             text={item.text}
                             backgroundColor={item.backgroundColor}
                             hour={item.hour}
+                            href={item.href}
                         />
                     </div>
                 )
             })}
         </div>
-
 
 
         <h2 className={styles.text_mestres} id="mestres">

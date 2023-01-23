@@ -14,7 +14,7 @@ export default function CardBeneficios({link}) {
                 return (
                     <div className={styles.size} key={index}>
                         <div style={{display:"flex",justifyContent:"start",padding:"20px"}} >
-                            <Card sx={{ maxWidth: 600}}
+                            <Card sx={{ maxWidth: 650}}
                                   style={{
                                       borderRadius:"20px",
                                       height:"auto",
@@ -44,7 +44,6 @@ export default function CardBeneficios({link}) {
                                                 {item.text}
                                             </p>
                                         </div>
-
                                     </div>
                                 </CardActionArea>
                             </Card>
@@ -52,7 +51,7 @@ export default function CardBeneficios({link}) {
 
 
                         <div style={{display:"flex",justifyContent:"end",padding:"20px"}}>
-                            <Card sx={{ maxWidth: 600}}
+                            <Card sx={{ maxWidth: 650}}
                                   style={{
                                       borderRadius:"20px",
                                       height:"auto",

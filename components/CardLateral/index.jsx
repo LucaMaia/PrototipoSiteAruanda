@@ -1,12 +1,15 @@
 import * as React from 'react';
+import styles from "./Card.module.css"
+import {Button} from "react-bootstrap";
+
+// MUI
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import {CardActionArea} from "@mui/material";
-import styles from "./Card.module.css"
-import {Button} from "react-bootstrap";
+
 
 export default function CardLateral({link}) {
     return (
@@ -15,7 +18,15 @@ export default function CardLateral({link}) {
                 return (
                     <div   style={{margin:"20px"}} key={index}>
                         <Card sx={{ display: 'flex' }} className={styles.size}  style={{backgroundColor:item.color}} >
-                                <CardActionArea>
+
+                            <CardMedia
+                                component="img"
+                                className={styles.card}
+                                image={item.image}
+                                alt="Live from space album cover"
+                            />
+
+                            <CardActionArea>
                                     <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                                         <CardContent sx={{ flex: '1 0 auto' }}>
                                             <Typography component="div" variant="h5">
@@ -35,14 +46,6 @@ export default function CardLateral({link}) {
                                         </CardContent>
                                     </Box>
                                 </CardActionArea>
-
-                                <CardMedia
-                                    component="img"
-                                    className={styles.card}
-                                    image={item.image}
-                                    alt="Live from space album cover"
-                                />
-
                         </Card>
                     </div>
                 )

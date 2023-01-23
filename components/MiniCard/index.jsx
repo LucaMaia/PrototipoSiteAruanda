@@ -1,13 +1,12 @@
 import * as React from 'react';
-import Image from 'next/image'
 
 //MUI
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import {CardActionArea} from '@mui/material';
+import {CardActionArea, Link} from '@mui/material';
 import {Button} from "react-bootstrap";
 
-export default function MiniCard({src, label, text, backgroundColor,hour}) {
+export default function MiniCard({href, label, text, backgroundColor,hour}) {
   return (
     <Card sx={{ width: 250 }} style={{
         backgroundColor: backgroundColor,
@@ -31,10 +30,9 @@ export default function MiniCard({src, label, text, backgroundColor,hour}) {
             <p style={{color:"white", fontWeight:"bold"}}>
                 {text}
             </p>
-
-            <Button variant="outline-success" href="">
-                Entre em contato
-            </Button>
+                <Button variant="outline-success" href={href}>
+                    Entre em contato
+                </Button>
         </CardContent>
       </CardActionArea>
     </Card>
