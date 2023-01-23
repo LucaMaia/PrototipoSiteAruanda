@@ -164,11 +164,11 @@
 }
 
 @media (max-width: 580px) {
-    .desc{
-        height: 550px;
+    .info .desc{
+        height: 150px;
     }
     .info{
-        height: 200px;
+        height: 250px;
     }
 }
 
