@@ -39,7 +39,6 @@ export default function LocaisTreino(){
                 </iframe>
             </div>
 
-            <Icons/>
             <Footer/>
         </>
     )

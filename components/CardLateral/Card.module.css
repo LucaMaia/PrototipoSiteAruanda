@@ -1,0 +1,40 @@
+.size{
+    width: 900px;
+    height: auto;
+}
+
+.card{
+    height: auto;
+    width: 200px;
+}
+
+@media (max-width: 1000px) {
+    .size{
+        width: auto;
+        height:auto;
+        margin: 10px;
+    }
+
+    .card{
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .size{
+        width: auto;
+        height: 150px;
+        margin: 10px;
+    }
+
+    .card{
+        height: auto;
+        width: 200px;
+    }
+
+    #test{
+        display: none;
+    }
+}
+

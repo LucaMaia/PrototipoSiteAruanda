@@ -1,20 +1,21 @@
 #luca{
- height: 80vh;
+ height: 70vh;
 }
 
+@media (max-width: 1200px) {
+ #luca{
+  height: 60vh;
+ }
+}
 
 @media (max-width: 1000px) {
  #luca{
-  height: 50vh; }
+  height: 50vh;
+ }
 }
 
-@media (max-width: 500px) {
- #luca{
-  height: 40vh; }
-}
-
-@media (max-width: 300px) {
- #luca{
+@media (max-width: 800px) {
+ .luca{
   height: 30vh; }
 }
 

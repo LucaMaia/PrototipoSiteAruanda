@@ -3,19 +3,18 @@ import styles from "./Noticias.module.css"
 
 // Components
 import NavbarComponent from "../../components/Navbar";
-import CardMuiComponent from "../../components/CardMUI";
 import Footer from "../../components/Footer";
-import Icons from "../../subpages/Icons";
+import CardLateral from "../../components/CardLateral";
+
 
 let navbar = [
     {"name":"Página Principal","href":"/","number":"1"},
     {"name":"Locais de Treino","href":"/locais-treino","number":"2"},
 ]
 
-let cardsMui = [
-    {"title": "Titulo 1", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","image": "https://escutaqueebom.com/wp-content/uploads/2018/08/Sidoka.jpg", "alt":"Sidoka", "height":"390"},
-    {"title": "Titulo 2", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","image": "https://escutaqueebom.com/wp-content/uploads/2018/08/Sidoka.jpg", "alt":"Sidoka", "height":"390"},
-    {"title": "Titulo 3", "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","image": "https://escutaqueebom.com/wp-content/uploads/2018/08/Sidoka.jpg", "alt":"Sidoka", "height":"390"},
+let cardLateral = [
+    {"title":"Encontro de Bambas 2018", "date":"13 de janeiro a 15 de janeiro", "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "href":"/", "color":"#D3D3D3","image":"EDB2017.jpeg"},
+    {"title":"Encontro de Bambas 2020", "date":"13 de janeiro a 15 de janeiro", "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "href":"/", "color":"#D3D3D3","image":"Michellinha.png"},
 ]
 
 export default function Noticias(){
@@ -36,15 +35,10 @@ export default function Noticias(){
                     Eventos Aruanda capoeira
                 </h1>
 
-                <div className={styles.alinhamento_cards}>
-                    <CardMuiComponent
-                        link={cardsMui}
-                        color="gray"
-                    />
+                <div style={{display:"flex", justifyContent:"center"}}>
+                    <CardLateral link={cardLateral} />
                 </div>
             </div>
-
-            <Icons/>
 
             <Footer/>
         </>

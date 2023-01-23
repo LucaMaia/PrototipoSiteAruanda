@@ -13,6 +13,5 @@ export default function Icons() {
                 <ImageAvatars src="face.png" width="40" height="40"/>
             </Link>
         </div>
-
     );
 }
