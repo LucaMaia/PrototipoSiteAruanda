@@ -1,6 +1,7 @@
 .text{
     text-align: center;
     font-style: oblique;
+    /*font-weight: bold;*/
 }
 
 .alinhamento{
@@ -17,4 +18,12 @@
     text-align:center;
     padding:40px;
     font-style: oblique;
+}
+
+
+@media (max-width: 1000px) {
+    .alinhamento{
+        display:flex;
+        flex-wrap:wrap;
+    }
 }

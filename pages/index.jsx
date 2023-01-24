@@ -102,12 +102,9 @@ export default function Home() {
             </div>
         </div>
 
-        <Historia/>
-
+        {/*<Historia/>*/}
         <Horarios/>
-
         {/*<Beneficios/>*/}
-
         <Mestres/>
 
         <Footer/>

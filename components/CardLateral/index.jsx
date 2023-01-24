@@ -17,7 +17,7 @@ export default function CardLateral({link}) {
             {link.map((item,index) => {
                 return (
                     <div   style={{margin:"20px"}} key={index}>
-                        <Card sx={{ display: 'flex' }} className={styles.size}  style={{backgroundColor:item.color}} >
+                        <Card  className={styles.size}  style={{backgroundColor:item.color}} >
 
                             <CardMedia
                                 component="img"
@@ -28,7 +28,7 @@ export default function CardLateral({link}) {
 
                             <CardActionArea>
                                     <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                                        <CardContent sx={{ flex: '1 0 auto' }}>
+                                        <CardContent sx={{ flex: ' 0 auto' }}>
                                             <Typography component="div" variant="h5">
                                                 {item.title}
                                             </Typography>

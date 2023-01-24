@@ -5,7 +5,6 @@ import styles from "./Noticias.module.css"
 import NavbarComponent from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import CardLateral from "../../components/CardLateral";
-import CardMuiComponent from "../../components/CardMUI";
 
 
 let navbar = [
@@ -43,10 +42,8 @@ let cardLateral = [
 
 let cardsMui = [
     {
-        "height": "300",
-        "width":"800",
-        "color":"",
-        "image": "/EDB2017(2).jpg",
+        "height": "350",
+        "image": "/EDB2017.jpeg",
         "alt": "LycaTest",
         "title":"Sidoka",
         "button":"Mais informações",
@@ -74,10 +71,6 @@ export default function Noticias(){
 
                 <div style={{display:"flex", justifyContent:"center"}}>
                     <CardLateral link={cardLateral} />
-                </div>
-
-                <div style={{display:"flex", justifyContent:"center"}}>
-                    <CardMuiComponent link={cardsMui}/>
                 </div>
             </div>
 

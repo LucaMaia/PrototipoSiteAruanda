@@ -1,16 +1,17 @@
 .size{
-    width: 80%;
+    width: 60%;
     height: auto;
     margin: 0 auto;
+    display: flex;
 }
 
 .card{
     height: auto;
-    width: 200px;
+    width: 30%;
     border-radius: 5px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .size{
         width: auto;
         height:auto;
@@ -18,25 +19,44 @@
     }
 
     .card{
-        height: auto;
-        width: auto;
+        height: 100%;
+        width: 40%;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     .size{
         width: auto;
-        height: 150px;
+        height: 200px;
         margin: 10px;
     }
 
     .card{
         height: auto;
-        width: 200px;
+        width: 50%;
     }
 
     #test{
         display: none;
     }
 }
+
+@media (max-width: 500px) {
+    .size{
+        width: auto;
+        height: auto;
+        margin: 10px;
+        display: block;
+    }
+
+    .card{
+        height: auto;
+        width: 100%;
+    }
+
+    #test{
+        display: none;
+    }
+}
+
 
