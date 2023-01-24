@@ -1,40 +1,40 @@
 import Carousel from "react-bootstrap/Carousel";
-import styles from "../Caroussel/Caroussel.module.css";
-import Image from 'next/image'
+import styles from "./Caroussel.module.css";
 import {Link} from "@mui/material";
+
+// Components
 import ImageAvatars from "../Avatar";
 
 export default function CarouselMestres({link}) {
     return (
        <>
-           <Carousel fade >
+           <Carousel variant="dark" fade >
                {link.map((item,index) => {
                    return (
-                       <Carousel.Item key={index} style={{
-                           display:"flex",
-                           justifyContent:"center",
-                           paddingBottom:"250px",
-                       }}
-                       >
-
-                           <Link href={item.href}>
-                               <ImageAvatars src={item.src} width="100" height="100"/>
-                           </Link>
+                       <Carousel.Item key={index} className={styles.alinhamento_image}>
+                           <div className={styles.espacamento}>
+                               <Link href={item.href}>
+                                   <ImageAvatars
+                                       src={item.src}
+                                       width="150"
+                                       height="150"
+                                   />
+                               </Link>
+                           </div>
 
                            <Carousel.Caption>
-                               <h3 style={{color:"black"}}>
+                               <h3 className={styles.text_black}>
                                    {item.title}
                                </h3>
-                               <p style={{color:"black"}}>
+                               <p className={styles.text_black}>
                                    {item.description}
                                </p>
 
-                               <p style={{color:"black"}}>
+                               <p className={styles.alinhamento_text}>
                                    {item.text}
                                </p>
                            </Carousel.Caption>
                        </Carousel.Item>
-
                    )
                })}
            </Carousel>

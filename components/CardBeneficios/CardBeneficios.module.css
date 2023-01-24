@@ -89,12 +89,12 @@
     padding: 15px;
     color: #1c1c1c;
     font-size: 14px;
-    margin-right: -28px;
     line-height: 15px;
     border-radius: 10px 10px 0 10px;
     position: relative;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    height: 90px;
+    height: 80px;
+    margin:5px
 }
 
 .title{
@@ -165,10 +165,11 @@
 
 @media (max-width: 580px) {
     .info .desc{
-        height: 150px;
+        height: 130px;
+        margin: 1px;
     }
     .info{
-        height: 250px;
+        height: 240px;
     }
 }
 

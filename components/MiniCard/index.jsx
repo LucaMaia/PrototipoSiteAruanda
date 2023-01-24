@@ -30,8 +30,8 @@ export default function MiniCard({href, label, text, backgroundColor,hour}) {
             <p style={{color:"white", fontWeight:"bold"}}>
                 {text}
             </p>
-                <Button variant="outline-success" href={href}>
-                    Entre em contato
+                <Button variant="danger" href={href}  style={{color:"white"}}>
+                        Entre em contato
                 </Button>
         </CardContent>
       </CardActionArea>

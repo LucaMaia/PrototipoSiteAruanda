@@ -4,11 +4,18 @@ import styles from "../../styles/Home.module.css"
 // Components
 import NavbarComponent from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import Icons from "../../subpages/Icons";
 
 let navbar = [
-    {"name":"Página Principal","href":"/","number":"1"},
-    {"name":"Notícias","href":"/noticias","number":"2"},
+    {
+        "name":"Página Principal",
+        "href":"/",
+        "number":"1"
+    },
+    {
+        "name":"Notícias",
+        "href":"/noticias",
+        "number":"2"
+    },
 ]
 
 export default function LocaisTreino(){
@@ -25,20 +32,18 @@ export default function LocaisTreino(){
                 image="/labslogo.svg"
             />
             <div style={{paddingTop:"120px"}}>
+                <h1 className={styles.text}>
+                    Locais de Treino Aruanda Capoeira
+                </h1>
 
+                <div className={styles.alinhamento_iframe}>
+                    <iframe
+                        src="https://www.google.com/maps/d/u/0/embed?mid=18YDTaHsM4rA564kHBtnJXJKGwYzxypI&ehbc=2E312F"
+                        className={styles.iframe}
+                    >
+                    </iframe>
+                </div>
             </div>
-            <h1 className={styles.text}>
-                Locais de Treino Aruanda Capoeira
-            </h1>
-
-            <div className={styles.alinhamento_iframe}>
-                <iframe
-                    src="https://www.google.com/maps/d/u/0/embed?mid=18YDTaHsM4rA564kHBtnJXJKGwYzxypI&ehbc=2E312F"
-                    className={styles.iframe}
-                >
-                </iframe>
-            </div>
-
             <Footer/>
         </>
     )

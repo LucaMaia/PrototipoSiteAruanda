@@ -7,3 +7,15 @@
     max-width:70%;
     margin:0 auto;
 }
+
+.text_historia{
+    text-align:center;
+    padding:40px;
+    background-color: #c2c2c2;
+    /*max-width: 80%;*/
+    margin: 0 auto;
+}
+
+.title_historia{
+    font-style: oblique;
+}

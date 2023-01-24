@@ -1,8 +1,4 @@
 /*Locais Treino*/
-.text{
-  text-align: center;
-  font-style: oblique;
-}
 
 .alinhamento_iframe{
   justify-content:center;
@@ -16,56 +12,12 @@
   border-radius: 20px;
 }
 
-.alinhamento{
-  text-align:center;
-  margin:20px auto;
-  width:65vw;
-  height:auto;
-  border-radius:20px;
-  display:flex;
-  justify-content:center;
-}
-
-
 /*Index Principal*/
 
 .caroussel{
   height:auto;
   text-align:center;
-  max-width:80%;
-  margin:0 auto;
-}
-
-.text_historia{
-  text-align:center;
-  padding:40px;
-  background-color: #c2c2c2;
-}
-
-.title_historia{
-  font-style: oblique;
-}
-
-.text_mestres{
-  text-align:center;
-  padding:40px;
-  font-style: oblique;
-}
-
-.text_beneficios{
-  text-align:center;
-  padding:40px;
-  font-style: oblique;
-}
-
-.text_horarios{
-  text-align:center;
-  padding:40px;
-  font-style: oblique;
-}
-
-.text{
-  text_align:center;
+  /*max-width:80%;*/
   margin:0 auto;
 }
 

@@ -4,14 +4,15 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import {Button} from "react-bootstrap";
 
-export default function CardMuiComponent({link, color, width}) {
+export default function CardMuiComponent({link}) {
     return (
         <div>
             {link.map((item,index) => {
                 return (
-                    <Card sx={{ maxWidth: parseInt(width) }}
-                          style={{backgroundColor:color,margin:"40px"}}
+                    <Card sx={{ maxWidth: parseInt(item.width) }}
+                          style={{backgroundColor:item.color,margin:"40px"}}
                           key={index}
                     >
                         <CardActionArea >
@@ -29,6 +30,9 @@ export default function CardMuiComponent({link, color, width}) {
                                     {item.text}
                                 </Typography>
                             </CardContent>
+                            <Button style={{margin:"20px"}}>
+                                {item.button}
+                            </Button>
                         </CardActionArea>
                     </Card>
                 )
