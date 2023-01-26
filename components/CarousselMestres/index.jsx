@@ -23,10 +23,10 @@ export default function CarouselMestres({link}) {
                            </div>
 
                            <Carousel.Caption>
-                               <h3 className={styles.text_black}>
+                               <h3>
                                    {item.title}
                                </h3>
-                               <p className={styles.text_black}>
+                               <p>
                                    {item.description}
                                </p>
 

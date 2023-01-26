@@ -1,5 +1,6 @@
 import styles from "./Horario.module.css";
 import MiniCard from "../../components/MiniCard";
+import Image from "next/image";
 
 let miniCards = [
     {
@@ -30,8 +31,9 @@ export default function Horarios() {
     return (
        <div className={styles.bg_color}>
            <div className={styles.text}>
+               <Image src="/hora.svg" height={100} width={80}/>
                <h2 className={styles.text_horarios} id="horarios">
-                   Quadro de Horários Aruanda Brasília - DF
+                  Horários Aruanda Brasília - DF
                </h2>
                <p className={styles.text}>
                    Local :
@@ -39,7 +41,6 @@ export default function Horarios() {
                        href="https://www.google.com/maps/place/Gin%C3%A1sio+do+Col%C3%A9gio+Maxwell/@-15.8226874,-47.9796321,17z/data=!3m1!4b1!4m5!3m4!1s0x935a315c72e699a7:0x23865d7e17ea0e1f!8m2!3d-15.8227733!4d-47.977403">
                        Ginásio do Colégio Maxwell
                    </a> - Guará 1 , QE 11 conj. I</p>
-
            </div>
 
 

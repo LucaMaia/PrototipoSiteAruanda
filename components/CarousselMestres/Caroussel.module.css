@@ -4,6 +4,10 @@
     padding-bottom:250px!important;
 }
 
+.espacamento{
+    padding:20px;
+}
+
 .alinhamento_text{
     color:white;
     max-width:70%;
@@ -11,13 +15,6 @@
     padding-bottom:20px;
 }
 
-.espacamento{
-    padding:20px;
-}
-
-.text_black{
-    color: white;
-}
 
 @media (max-width: 1000px) {
     .alinhamento_text{

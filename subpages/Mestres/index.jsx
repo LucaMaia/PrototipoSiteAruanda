@@ -1,4 +1,5 @@
 import styles from "./Mestres.module.css";
+import {Button} from "react-bootstrap";
 import CarouselMestres from "../../components/CarousselMestres";
 
 let carousselMestres = [
@@ -30,6 +31,12 @@ export default function Mestres() {
                 Mestres da casa
             </h2>
             <CarouselMestres link={carousselMestres}/>
+
+            <div className={styles.button}>
+                <Button variant="danger" href="/historia-aruanda">
+                    Conheça mais sobre a nossa historia
+                </Button>
+            </div>
         </div>
     );
 }

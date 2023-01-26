@@ -1,36 +1,28 @@
 import * as React from 'react';
+import styles from "./MiniCard.module.css"
+import {Button} from "react-bootstrap";
+
 
 //MUI
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import {CardActionArea, Link} from '@mui/material';
-import {Button} from "react-bootstrap";
-
+import {CardActionArea} from '@mui/material';
 export default function MiniCard({href, label, text, backgroundColor,hour}) {
   return (
-    <Card sx={{ width: 250 }} style={{
-        backgroundColor: backgroundColor,
-        borderRadius:"20px",
-        height:"190px",
-        boxShadow: "rgba(0, 0, 0, 0.15) 10px 10px 2.6px",
-        textAlign:"center",
-        margin:"0 auto",
-        maxWidth:"80%,"
-    }}
-    >
+    <Card sx={{ width: 250 }} style={{backgroundColor: backgroundColor}} className={styles.alinhamento_card}>
       <CardActionArea>
         <CardContent>
-          <p style={{color:"#07456C", fontWeight:"bold"}}>
+          <p className={styles.text_bold}>
               {label}
           </p>
-            <p style={{color:"#07456C"}}>
+            <p className={styles.text}>
                 {hour}
             </p>
 
-            <p style={{color:"#07456C", fontWeight:"bold"}}>
+            <p className={styles.text_bold}>
                 {text}
             </p>
-                <Button variant="danger" href={href}  style={{color:"white"}}>
+                <Button variant="danger" href={href}  className={styles.color_button}>
                         Entre em contato
                 </Button>
         </CardContent>

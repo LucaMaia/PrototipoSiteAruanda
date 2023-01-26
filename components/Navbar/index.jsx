@@ -11,8 +11,8 @@ export default function NavbarComponent({link,image}) {
                 <Navbar.Brand href="/" className={styles.alinhamento}>
                     <Image
                         src={image}
-                        width={130}
-                        height={70}
+                        width={100}
+                        height={60}
                     />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

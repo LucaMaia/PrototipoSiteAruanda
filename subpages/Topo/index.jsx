@@ -67,7 +67,7 @@ let navbar = [
 export default function Topo(){
     return(
         <>
-            <NavbarComponent link={navbar} image="/labslogo.svg"/>
+            <NavbarComponent link={navbar} image="/logo.svg"/>
 
             {/*<div id="navBar" className={styles.alinhamento_image}>*/}
             {/*    <Image*/}

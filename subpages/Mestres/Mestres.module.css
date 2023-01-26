@@ -7,3 +7,10 @@
 .text{
     color: white;
 }
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+

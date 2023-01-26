@@ -1,0 +1,20 @@
+.alinhamento_card{
+    border-radius:20px;
+    height:190px;
+    box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 2.6px;
+    text-align:center;
+    margin:0 auto;
+    max-width:100%;
+}
+.text{
+    color:#07456C;
+}
+
+.text_bold{
+    color:#07456C;
+    font-weight:bold;
+}
+
+.color_button{
+    color: white;
+}
