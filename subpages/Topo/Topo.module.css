@@ -1,0 +1,12 @@
+.caroussel{
+    height:auto;
+    text-align:center;
+    /*max-width:80%;*/
+    margin:0 auto;
+}
+
+.alinhamento_image{
+    display:flex;
+    justify-content:center;
+    padding-top:70px;
+}

@@ -2,13 +2,13 @@
     display:flex!important;
     justify-content:center!important;
     padding-bottom:250px!important;
-    /*background-color: #C3C3C3;*/
 }
 
 .alinhamento_text{
-    color:black;
-    max-width:50%;
+    color:white;
+    max-width:70%;
     margin:0 auto;
+    padding-bottom:20px;
 }
 
 .espacamento{
@@ -16,7 +16,7 @@
 }
 
 .text_black{
-    color: black;
+    color: white;
 }
 
 @media (max-width: 1000px) {

@@ -20,14 +20,14 @@ export default function MiniCard({href, label, text, backgroundColor,hour}) {
     >
       <CardActionArea>
         <CardContent>
-          <p style={{color:"white", fontWeight:"bold"}}>
+          <p style={{color:"#07456C", fontWeight:"bold"}}>
               {label}
           </p>
-            <p style={{color:"white"}}>
+            <p style={{color:"#07456C"}}>
                 {hour}
             </p>
 
-            <p style={{color:"white", fontWeight:"bold"}}>
+            <p style={{color:"#07456C", fontWeight:"bold"}}>
                 {text}
             </p>
                 <Button variant="danger" href={href}  style={{color:"white"}}>

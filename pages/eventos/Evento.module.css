@@ -1,0 +1,29 @@
+
+.espacamento{
+    padding-top: 120px;
+}
+
+.text{
+    text-align: center;
+    font-style: oblique;
+    color: white;
+}
+
+.alinhamento_cards{
+    display: flex;
+    justify-content: center;
+}
+
+.image_background{
+    background-image: url("/fundo 1.svg");
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 800px) {
+    .alinhamento_cards{
+        width: auto;
+    }
+}
+

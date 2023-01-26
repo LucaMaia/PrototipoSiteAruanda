@@ -1,25 +1,90 @@
 import styles from "./Topo.module.css";
+import NavbarComponent from "../../components/Navbar";
+import CarouselComponent from "../../components/Caroussel";
 
+let carroussel = [
+    {
+        "title":"Site do Grupo Aruanda Capoeira",
+        "text":"Conheça mais sobre a nossa história e faça parte da nossa familia!",
+        "src":"/EDB2017(2).jpg"
+    },
+    {
+        "title":"Encontro de Bambas 2017",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "src":"/EDB2017(2).jpg"
+    },
+    {
+        "title":"Encontro de Bambas 2019",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "src":"/EDB2019.jpg"
+    },
+    {
+        "title":"Encontro de Bambas 2020",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "src":"/EDB.webp"
+    },
+    {
+        "title":"Encontro de Bambas 2020",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "src":"/EDB2017.jpeg"
+    },
+]
+
+let navbar = [
+    {
+        "name":"Eventos",
+        "href":"/eventos",
+        "number":"1"
+    },
+    {
+        "name":"Locais",
+        "href":"/locais-treino",
+        "number":"2"
+    },
+    {
+        "name":"História Aruanda ",
+        "href":"#aruanda",
+        "number":"3"
+    },
+    {
+        "name":"Por que praticar Capoeira?",
+        "href":"#capoeira",
+        "number":"4"
+    },
+    {
+        "name":"Horários",
+        "href":"#horarios",
+        "number":"5"
+    },
+    {
+        "name":"Mestres da casa",
+        "href":"#mestres",
+        "number":"6"
+    },
+
+]
 
 export default function Topo(){
     return(
         <>
-            <h2 style={{
-                textAlign:"center",
-                padding:"40px",
-                backgroundColor:"rgba(0, 0, 0, 0.1)",
-                margin:"0 auto",
-            }}
-            >
-                Bem-vindo ao site do Grupo Aruanda Capoeira!
-            </h2>
+            <NavbarComponent link={navbar} image="/labslogo.svg"/>
 
-            <p style={{maxWidth:"85%", margin:"0 auto"}}>
-                A capoeira é uma arte brasileira que combina elementos de luta, musicalidade, ritmo e acrobacia, formando uma manifestação cultural extremamente rica e única.
-                Este site contém informação sobre onde encontrar os nossos núcleos, aulas, e um pouco da nossa longa história, além de muito conteúdo interessante.
-                Obrigado pelo interesse na nossa arte!
-            </p>
+            {/*<div id="navBar" className={styles.alinhamento_image}>*/}
+            {/*    <Image*/}
+            {/*        src="/EDB2019.jpg"*/}
+            {/*        width="800"*/}
+            {/*        height="500"*/}
+            {/*        alt="fundo"*/}
+            {/*        priority*/}
+            {/*        className={styles.image}*/}
+            {/*    />*/}
+            {/*</div>*/}
 
+            <div className={styles.caroussel}>
+                <div style={{paddingTop:"110px"}}>
+                    <CarouselComponent link={carroussel}/>
+                </div>
+            </div>
         </>
     )
 }

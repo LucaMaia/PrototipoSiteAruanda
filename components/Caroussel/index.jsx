@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import styles from"./Caroussel.module.css"
+import Image from "next/image";
 
 export default function CarouselComponent({link}) {
     return (
@@ -7,19 +8,21 @@ export default function CarouselComponent({link}) {
             {link.map((item,index) => {
                 return (
                     <Carousel.Item key={index} >
-                        <img
-                            className="d-block w-100"
+                        <Image
                             src={item.src}
-                            alt="First slide"
-                            id={styles.luca}
+                            height="400"
+                            width="800"
+                            className={styles.image}
                         />
-                        <Carousel.Caption>
-                            {/*<div style={{paddingBottom:"500px"}}>*/}
-                            {/*    <h3>{item.title}</h3>*/}
-                            {/*    <p>{item.text}</p>*/}
-                            {/*</div>*/}
+                        {/*<Carousel.Caption>*/}
+                        {/*        <h3 className={styles.text}>{item.title}</h3>*/}
+                        {/*        /!*<p>{item.text}</p>*!/*/}
 
-                        </Carousel.Caption>
+                        {/*</Carousel.Caption>*/}
+                        <div className={styles.text}>
+                            <h3>{item.title}</h3>
+                            <p>{item.text}</p>
+                        </div>
                     </Carousel.Item>
                 )
             })}

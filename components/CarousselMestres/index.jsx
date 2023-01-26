@@ -8,7 +8,7 @@ import ImageAvatars from "../Avatar";
 export default function CarouselMestres({link}) {
     return (
        <>
-           <Carousel variant="dark" fade >
+           <Carousel  fade >
                {link.map((item,index) => {
                    return (
                        <Carousel.Item key={index} className={styles.alinhamento_image}>

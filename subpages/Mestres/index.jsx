@@ -25,11 +25,11 @@ let carousselMestres = [
 
 export default function Mestres() {
     return (
-        <>
+        <div className={styles.text}>
             <h2 className={styles.text_mestres} id="mestres">
                 Mestres da casa
             </h2>
             <CarouselMestres link={carousselMestres}/>
-        </>
+        </div>
     );
 }

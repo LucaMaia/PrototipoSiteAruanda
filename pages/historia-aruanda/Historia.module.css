@@ -1,0 +1,38 @@
+.title_historia{
+    font-style: oblique;
+}
+
+.historia{
+    height:auto ;
+    /*background-color:darkred ;*/
+    text-align:center ;
+    border-radius:10px ;
+    padding:10px;
+    max-width:70%;
+    margin:0 auto;
+}
+.text_historia{
+    text-align:center;
+    padding-top:150px;
+    color: white;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.espacamento{
+    margin-top: 100px;
+}
+
+.image_background{
+    background-image: url("/fundo 1.svg");
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 1500px) {
+    .text_historia{
+        max-width: 100vw;
+    }
+
+}
+

@@ -1,22 +1,30 @@
-#luca{
- height: 90vh;
+.image{
+ height: 100%;
+ width: 100%;
+ border-radius: 10px;
 }
 
+.text{
+ padding-bottom: 30px;
+ color: white;
+}
+
+
 @media (max-width: 1200px) {
- #luca{
+ .image{
   height: 60vh;
  }
 }
 
 @media (max-width: 1000px) {
- #luca{
+ .image{
   height: 50vh;
  }
 }
 
 @media (max-width: 800px) {
- .luca{
-  height: 30vh; }
+ .image{
+  height: 40vh; }
 }
 
 

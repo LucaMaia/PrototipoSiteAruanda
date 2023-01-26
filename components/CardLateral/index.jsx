@@ -35,7 +35,7 @@ export default function CardLateral({link}) {
                                             <Typography variant="subtitle1" color="text.secondary" component="div">
                                                 {item.date}
                                             </Typography>
-                                            <div id={styles.test}>
+                                            <div>
                                                 <Typography variant="subtitle1" color="text.secondary" component="div" id="test" >
                                                     {item.text}
                                                 </Typography>

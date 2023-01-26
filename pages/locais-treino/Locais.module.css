@@ -1,0 +1,25 @@
+/*Locais Treino*/
+
+.alinhamento_iframe{
+    justify-content:center;
+    display:flex;
+    padding:60px;
+}
+
+.iframe{
+    width:1640px;
+    height:590px;
+    border-radius: 20px;
+}
+
+.text{
+    text-align: center;
+    font-style: oblique;
+    color: white;
+}
+
+.image_background{
+    background-image: url("/fundo 1.svg");
+    max-width: 100vw;
+    margin: 0 auto;
+}

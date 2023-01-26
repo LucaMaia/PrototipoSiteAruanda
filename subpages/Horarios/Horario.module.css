@@ -14,12 +14,21 @@
     justify-content:center;
 }
 
+
+.text{
+    color: black;
+}
+
 .text_horarios{
     text-align:center;
     padding:40px;
     font-style: oblique;
 }
 
+.bg_color{
+    background-color: whitesmoke;
+    opacity: 0.9;
+}
 
 @media (max-width: 1000px) {
     .alinhamento{

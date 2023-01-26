@@ -2,12 +2,13 @@ import Image from 'next/image'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import styles from "./Navbar.module.css"
 
 export default function NavbarComponent({link,image}) {
     return (
-        <Navbar collapseOnSelect expand="lg" variant="dark" style={{backgroundColor:"#07456C", overflow:"hidden", position:"fixed", width:"100vw", zIndex:"100"}}>
+        <Navbar collapseOnSelect expand="lg" variant="dark" className={styles.navbar}>
             <Container>
-                <Navbar.Brand href="/" style={{display:"flex", alignItems:"center"}}>
+                <Navbar.Brand href="/" className={styles.alinhamento}>
                     <Image
                         src={image}
                         width={130}
