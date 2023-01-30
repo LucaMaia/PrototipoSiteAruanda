@@ -1,19 +1,23 @@
 import * as React from 'react';
+import {Button} from "react-bootstrap";
+
+// MUI
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import {Button} from "react-bootstrap";
 
-export default function CardMuiComponent({link, color, width}) {
+import styles from "./Card.module.css"
+
+export default function CardMuiComponent({link}) {
     return (
-        <div>
+        <>
             {link.map((item,index) => {
                 return (
-                    <Card sx={{ maxWidth: parseInt(width) }}
-                          style={{backgroundColor:color,margin:"40px"}}
+                    <Card sx={{ maxWidth: parseInt(item.width) , maxHeight:700}}
+                          style={{backgroundColor:item.color,margin:"10px"}}
                           key={index}
+                          className={styles.card}
                     >
                         <CardActionArea >
                             <CardMedia
@@ -23,20 +27,19 @@ export default function CardMuiComponent({link, color, width}) {
                                 alt={item.alt}
                             />
                             <CardContent>
-                                <Typography gutterBottom variant="h5" component="div">
-                                    {item.title}
-                                </Typography>
-                                <Typography variant="body2" color="text.secondary">
-                                    {item.text}
-                                </Typography>
+                                    <h5>{item.title}</h5>
+                                    <p>{item.text}</p>
+                                    <p>{item.hour}</p>
                             </CardContent>
-                            <Button style={{margin:"20px"}}>
-                                Hello
-                            </Button>
                         </CardActionArea>
+                        <div className={styles.espacamento}>
+                            <Button className={styles.button}>
+                                {item.button}
+                            </Button>
+                        </div>
                     </Card>
                 )
             })}
-        </div>
+        </>
     );
 }

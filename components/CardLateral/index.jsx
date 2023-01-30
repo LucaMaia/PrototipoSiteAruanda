@@ -16,15 +16,17 @@ export default function CardLateral({link}) {
         <div>
             {link.map((item,index) => {
                 return (
-                    <div   style={{margin:"20px"}} key={index}>
+                    <div style={{margin:"20px"}} key={index}>
                         <Card  className={styles.size}  style={{backgroundColor:item.color}} >
+                            <div className={styles.card_limite}>
+                                <CardMedia
+                                    component="img"
+                                    className={styles.card}
+                                    image={item.image}
+                                    alt="Live from space album cover"
+                                />
+                            </div>
 
-                            <CardMedia
-                                component="img"
-                                className={styles.card}
-                                image={item.image}
-                                alt="Live from space album cover"
-                            />
 
                             <CardActionArea>
                                     <Box sx={{ display: 'flex', flexDirection: 'column' }}>

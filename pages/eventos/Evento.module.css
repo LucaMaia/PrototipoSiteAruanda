@@ -1,6 +1,8 @@
 
 .espacamento{
     padding-top: 120px;
+    width: 60%;
+    margin:0 auto;
 }
 
 .text{
@@ -20,10 +22,22 @@
     margin: 0 auto;
 }
 
+.espacamento_cardBootstrap{
+    margin: 20px;
+}
 
-@media (max-width: 800px) {
+@media (max-width: 2650px) {
     .alinhamento_cards{
         width: auto;
     }
+    .espacamento{
+        padding-top: 120px;
+        width: 95%;
+        margin:0px auto;
+    }
+    .espacamento_cardBootstrap{
+        margin: 0px;
+    }
+
 }
 

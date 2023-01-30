@@ -1,10 +1,9 @@
 import Head from "next/head";
-// import styles from "../../styles/Home.module.css"
 import styles from "./Locais.module.css"
 
 // Components
 import NavbarComponent from "../../components/Navbar";
-import Footer from "../../components/Footer";
+import CardMuiComponent from "../../components/CardMUI";
 
 let navbar = [
     {
@@ -24,6 +23,66 @@ let navbar = [
     },
 ]
 
+let cardsMui = [
+    {
+        "height": "300px",
+        "width":"500",
+        "color":"",
+        "image": "/test.jpeg",
+        "alt": "LycaTest",
+        "title":"Sidoka",
+        "text":"Guará 1 - Qi 11 conj I - Ginásio do Colégio Maxwell ",
+        "button":"Mais informações",
+        "hour":"Horário: 18:30 ás 19:30",
+    },
+    {
+        "height": "300px",
+        "width":"500",
+        "color":"",
+        "image": "/EDB2017(2).jpg",
+        "alt": "LycaTest",
+        "title":"Sidoka",
+        "text":"Guará 1 - Qi 11 conj I - Ginásio do Colégio Maxwell ",
+        "button":"Mais informações",
+        "hour":"Horário: 18:30 ás 19:30",
+
+    },
+    {
+        "height": "300px",
+        "width":"500",
+        "color":"",
+        "image": "/EDB.webp",
+        "alt": "LycaTest",
+        "title":"Sidoka",
+        "text":"Guará 1 - Qi 11 conj I - Ginásio do Colégio Maxwell ",
+        "button":"Mais informações",
+        "hour":"Horário: 18:30 ás 19:30",
+    },
+    {
+        "height": "300px",
+        "width":"500",
+        "color":"",
+        "image": "/EDB.webp",
+        "alt": "LycaTest",
+        "title":"Sidoka",
+        "text":"Guará 1 - Qi 11 conj I - Ginásio do Colégio Maxwell ",
+        "button":"Mais informações",
+        "hour":"Horário: 18:30 ás 19:30",
+    },
+    {
+        "height": "300px",
+        "width":"500",
+        "color":"",
+        "image": "/EDB.webp",
+        "alt": "LycaTest",
+        "title":"Sidoka",
+        "text":"Guará 1 - Qi 11 conj I - Ginásio do Colégio Maxwell ",
+        "button":"Mais informações",
+        "hour":"Horário: 18:30 ás 19:30",
+    },
+]
+
+
 export default function LocaisTreino(){
     return(
         <div className={styles.image_background}>
@@ -38,16 +97,18 @@ export default function LocaisTreino(){
                 <h1 className={styles.text}>
                     Locais de Treino Aruanda Capoeira
                 </h1>
-
-                <div className={styles.alinhamento_iframe}>
-                    <iframe
-                        src="https://www.google.com/maps/d/u/0/embed?mid=18YDTaHsM4rA564kHBtnJXJKGwYzxypI&ehbc=2E312F"
-                        className={styles.iframe}
-                    >
-                    </iframe>
+                <div className={styles.alinhamento_cards}>
+                    <CardMuiComponent link={cardsMui}/>
                 </div>
+
+                {/*<div className={styles.alinhamento_iframe}>*/}
+                {/*    <iframe*/}
+                {/*        src="https://www.google.com/maps/d/u/0/embed?mid=18YDTaHsM4rA564kHBtnJXJKGwYzxypI&ehbc=2E312F"*/}
+                {/*        className={styles.iframe}*/}
+                {/*    >*/}
+                {/*    </iframe>*/}
+                {/*</div>*/}
             </div>
-            <Footer/>
         </div>
     )
 }

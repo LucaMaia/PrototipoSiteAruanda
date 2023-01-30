@@ -8,7 +8,7 @@ let miniCards = [
         "text": "Mestra Michellinha",
         "hour":"18:30 ás 19:30",
         "backgroundColor":"white",
-        "href":"https://wa.me/5561983439530",
+        "href":"https://wa.me/5561983439530?text=Vim%20do%20site%20Aruanda%20Capoeira%20e%20gostaria%20de%20fazer%20um%20orçamento.",
     },
     {
         "label": "TER/QUIN",

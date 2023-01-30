@@ -1,4 +1,5 @@
 import styles from "./Pratica.module.css";
+import {Button} from "react-bootstrap";
 
 
 export default function PorquePraticar(){
@@ -21,8 +22,16 @@ export default function PorquePraticar(){
                     </p>
                 </div>
 
+                <div className={styles.alinhamento_button}>
+                    <Button
+                        variant="danger"
+                        href=""
+                        className={styles.button}
+                    >
+                        Começar agora
+                    </Button>
+                </div>
             </div>
-
         </>
     )
 }

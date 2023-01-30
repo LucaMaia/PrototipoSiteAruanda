@@ -32,9 +32,9 @@ export default function Mestres() {
             </h2>
             <CarouselMestres link={carousselMestres}/>
 
-            <div className={styles.button}>
-                <Button variant="danger" href="/historia-aruanda">
-                    Conheça mais sobre a nossa historia
+            <div className={styles.alinhamento_button}>
+                <Button variant="danger" href="" className={styles.button}>
+                    Começar agora
                 </Button>
             </div>
         </div>

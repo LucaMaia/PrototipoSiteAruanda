@@ -1,5 +1,6 @@
 import styles from "./Beneficios.module.css";
 import CardBeneficios from "../../components/CardBeneficios";
+import {Button} from "react-bootstrap";
 
 let cardBeneficios = [
     {
@@ -36,8 +37,8 @@ let cardBeneficios = [
         "number":"7",
 
         "numeric":"8",
-        "subtitle":"Ajuda a liberar o estresse",
-        "textarea":"A capoeira serve de válvula de escape; é uma forma de liberar o estresse de uma forma lúdica e saudável."
+        "subtitle":"Desestimula a timidez",
+        "textarea":"A capoeira é uma atividade que envolve dança, música, diferentes movimentos… Não há, portanto, espaço para timidez. Todos os participantes – sejam adultos, sejam crianças – estão ali expostos ao grupo com todas as suas imperfeições."
     },
 ]
 
@@ -49,6 +50,12 @@ export default function Beneficios() {
             </h2>
 
             <CardBeneficios link={cardBeneficios}/>
+
+            {/*<div className={styles.alinhamento_button}>*/}
+            {/*    <Button variant="danger">*/}
+            {/*        Começar agora*/}
+            {/*    </Button>*/}
+            {/*</div>*/}
         </>
     );
 }

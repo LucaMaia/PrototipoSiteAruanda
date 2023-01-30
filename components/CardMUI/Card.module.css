@@ -1,0 +1,19 @@
+.button{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 20px;
+}
+
+.espacamento{
+    margin: 20px ;
+}
+
+.card{
+    height: auto;
+}
+
+@media (max-width: 1500px) {
+    .espacamento{
+        margin: 10px;
+    }
+}

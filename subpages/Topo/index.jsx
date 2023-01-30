@@ -43,7 +43,7 @@ let navbar = [
     },
     {
         "name":"História Aruanda ",
-        "href":"#aruanda",
+        "href":"/historia-aruanda",
         "number":"3"
     },
     {

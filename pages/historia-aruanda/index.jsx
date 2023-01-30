@@ -2,7 +2,7 @@ import styles from "./Historia.module.css"
 import NavbarComponent from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Head from "next/head";
-
+import Beneficios from "../../subpages/Beneficios";
 
 let navbar = [
     {
@@ -58,7 +58,9 @@ export default function HistoriaAruanda() {
                             </p>
                         </div>
                     </div>
-                <Footer/>
+
+                {/*<Beneficios/>*/}
+                {/*<Footer/>*/}
             </div>
         </>
     );

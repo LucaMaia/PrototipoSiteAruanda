@@ -5,11 +5,11 @@ import styles from '../styles/Home.module.css'
 import Footer from "../components/Footer";
 
 // Subpages
+import Topo from "../subpages/Topo";
+import PorquePraticar from "../subpages/PorquePraticar";
 import Horarios from "../subpages/Horarios";
 import Mestres from "../subpages/Mestres";
 import Beneficios from "../subpages/Beneficios";
-import Topo from "../subpages/Topo";
-import PorquePraticar from "../subpages/PorquePraticar";
 
 export default function Home() {
   return (
@@ -23,8 +23,9 @@ export default function Home() {
         <Topo/>
         <PorquePraticar/>
         <Horarios/>
-        {/*<Beneficios/>*/}
+        <Beneficios/>
         <Mestres/>
+
         <Footer/>
     </div>
   )

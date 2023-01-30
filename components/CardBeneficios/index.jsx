@@ -14,15 +14,7 @@ export default function CardBeneficios({link}) {
                 return (
                     <div className={styles.size} key={index}>
                         <div style={{display:"flex",justifyContent:"start",padding:"20px"}} >
-                            <Card sx={{ maxWidth: 650}}
-                                  style={{
-                                      borderRadius:"20px",
-                                      height:"auto",
-                                      boxShadow: "rgba(0, 0, 0, 0.15) 10px 10px 2.6px",
-                                      display:"flex",
-                                      justifyContent:"end",
-                                      background:"white",
-                                  }}>
+                            <Card className={styles.card}>
                                 <CardActionArea >
                                     <div className={styles.item}>
                                         <div className={styles.num}>
@@ -51,15 +43,7 @@ export default function CardBeneficios({link}) {
 
 
                         <div style={{display:"flex",justifyContent:"end",padding:"20px"}}>
-                            <Card sx={{ maxWidth: 650}}
-                                  style={{
-                                      borderRadius:"20px",
-                                      height:"auto",
-                                      boxShadow: "rgba(0, 0, 0, 0.15) 10px 10px 2.6px",
-                                      display:"flex",
-                                      justifyContent:"end",
-                                      background:"white",
-                                  }}>
+                            <Card className={styles.card}>
                                 <CardActionArea >
                                     <div className={styles.item}>
                                         <div className={styles.num}>

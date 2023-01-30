@@ -1,5 +1,6 @@
 .title_historia{
     font-style: oblique;
+    font-size: 35px;
 }
 
 .historia{
@@ -10,6 +11,7 @@
     padding:10px;
     max-width:70%;
     margin:0 auto;
+    font-size: 22px;
 }
 .text_historia{
     text-align:center;

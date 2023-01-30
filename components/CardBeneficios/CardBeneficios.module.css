@@ -1,4 +1,16 @@
 /* Imagem e titulo */
+
+.card{
+    border-radius:20px;
+    height:auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 2.6px;
+    display:flex;
+    justify-content:end;
+    background:white;
+    max-width: 950px;
+}
+
+
 .alinhamento_processoseletivo{
     display:flex;
     justify-content:space-between;
@@ -85,9 +97,9 @@
 }
 
 .desc{
-    background: rgba(255, 226, 78, 0.9);
+    background:darkred;
     padding: 15px;
-    color: #1c1c1c;
+    color: white;
     font-size: 14px;
     line-height: 15px;
     border-radius: 10px 10px 0 10px;
@@ -155,6 +167,10 @@
     .titulo_processo_seletivo{
         margin: 20px auto;
     }
+    .card{
+        max-width: 650px;
+    }
+
 }
 
 @media (max-width: 370px) {
