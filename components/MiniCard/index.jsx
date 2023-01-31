@@ -9,7 +9,7 @@ import CardContent from '@mui/material/CardContent';
 import {CardActionArea} from '@mui/material';
 export default function MiniCard({href, label, text, backgroundColor,hour}) {
   return (
-    <Card sx={{ width: 250 }} style={{backgroundColor: backgroundColor}} className={styles.alinhamento_card}>
+    <Card sx={{ width: 250 }} style={{backgroundColor: backgroundColor,borderRadius:"20px"}}  className={styles.alinhamento_card}>
       <CardActionArea>
         <CardContent>
           <p className={styles.text_bold}>

@@ -48,8 +48,10 @@ export default function Beneficios() {
             <h2 className={styles.text_beneficios} id="beneficios">
                 8 benefícios da capoeira
             </h2>
+            <div className={styles.alinhamento_beneficios}>
+                <CardBeneficios link={cardBeneficios}/>
+            </div>
 
-            <CardBeneficios link={cardBeneficios}/>
 
             {/*<div className={styles.alinhamento_button}>*/}
             {/*    <Button variant="danger">*/}

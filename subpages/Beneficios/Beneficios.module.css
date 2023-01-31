@@ -9,3 +9,8 @@
     text-align: center;
     padding: 20px;
 }
+
+.alinhamento_beneficios{
+    max-width: 95%;
+    margin: 0 auto;
+}
