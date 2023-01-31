@@ -10,15 +10,16 @@ export default function CarouselComponent({link}) {
                     <Carousel.Item key={index} >
                         <Image
                             src={item.src}
-                            height="400"
-                            width="800"
+                            height="600"
+                            width="1000"
                             className={styles.image}
                         />
+
                         {/*<Carousel.Caption>*/}
                         {/*        <h3 className={styles.text}>{item.title}</h3>*/}
                         {/*        /!*<p>{item.text}</p>*!/*/}
-
                         {/*</Carousel.Caption>*/}
+
                         <div className={styles.text}>
                             <h3>{item.title}</h3>
                             <p>{item.text}</p>
