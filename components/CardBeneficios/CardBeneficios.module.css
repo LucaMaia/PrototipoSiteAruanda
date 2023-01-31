@@ -154,7 +154,7 @@
 
 @media (max-width: 1500px) {
     .desc{
-        height: 100px;
+        height: 140px;
         font-size: 12px;
     }
     .alinhamento_imagem_oculos{
@@ -190,7 +190,7 @@
 
 @media (max-width: 580px) {
     .info .desc{
-        height: 130px;
+        height: 140px;
         margin: 1px;
     }
     .info{

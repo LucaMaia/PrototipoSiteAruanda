@@ -10,8 +10,8 @@ export default function CarouselComponent({link}) {
                     <Carousel.Item key={index} >
                         <Image
                             src={item.src}
-                            height="600"
-                            width="1000"
+                            height="500"
+                            width="900"
                             className={styles.image}
                         />
 

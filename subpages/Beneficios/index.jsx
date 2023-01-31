@@ -10,7 +10,7 @@ let cardBeneficios = [
 
         "numeric":"2",
         "subtitle":"Ajuda a liberar o estresse",
-        "textarea":"A capoeira serve de válvula de escape; é uma forma de liberar o estresse de uma forma lúdica e saudável."
+        "textarea":"Como a maioria dos esportes, para as pessoas que buscam melhoria na qualidade de vida, a capoeira serve de válvula de escape; é uma forma de liberar o estresse de uma forma lúdica e saudável."
     },
 
     {

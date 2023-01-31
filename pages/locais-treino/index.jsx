@@ -97,17 +97,17 @@ export default function LocaisTreino(){
                 <h1 className={styles.text}>
                     Locais de Treino Aruanda Capoeira
                 </h1>
-                <div className={styles.alinhamento_cards}>
-                    <CardMuiComponent link={cardsMui}/>
-                </div>
-
-                {/*<div className={styles.alinhamento_iframe}>*/}
-                {/*    <iframe*/}
-                {/*        src="https://www.google.com/maps/d/u/0/embed?mid=18YDTaHsM4rA564kHBtnJXJKGwYzxypI&ehbc=2E312F"*/}
-                {/*        className={styles.iframe}*/}
-                {/*    >*/}
-                {/*    </iframe>*/}
+                {/*<div className={styles.alinhamento_cards}>*/}
+                {/*    <CardMuiComponent link={cardsMui}/>*/}
                 {/*</div>*/}
+
+                <div className={styles.alinhamento_iframe}>
+                    <iframe
+                        src="https://www.google.com/maps/d/u/0/embed?mid=18YDTaHsM4rA564kHBtnJXJKGwYzxypI&ehbc=2E312F"
+                        className={styles.iframe}
+                    >
+                    </iframe>
+                </div>
             </div>
         </div>
     )
