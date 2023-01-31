@@ -13,7 +13,7 @@ export default function CardBeneficios({link}) {
                 // if(!item.numeric & !item.subtitle & !item.desc & !item.textarea) return;
                 return (
                     <div className={styles.size} key={index}>
-                        <div style={{display:"flex",justifyContent:"start",padding:"20px"}} >
+                        <div style={{display:"flex",justifyContent:"start",padding:"10px"}} >
                             <Card className={styles.card} style={{borderRadius:"20px"}}>
                                 <CardActionArea >
                                     <div className={styles.item}>
@@ -42,7 +42,7 @@ export default function CardBeneficios({link}) {
                         </div>
 
 
-                        <div style={{display:"flex",justifyContent:"end",padding:"20px"}}>
+                        <div style={{display:"flex",justifyContent:"end",padding:"10px"}}>
                             <Card className={styles.card} style={{borderRadius:"20px"}}>
                                 <CardActionArea >
                                     <div className={styles.item}>
