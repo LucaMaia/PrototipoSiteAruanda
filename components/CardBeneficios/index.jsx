@@ -43,7 +43,7 @@ export default function CardBeneficios({link}) {
 
 
                         <div style={{display:"flex",justifyContent:"end",padding:"20px"}}>
-                            <Card className={styles.card}>
+                            <Card className={styles.card} style={{borderRadius:"20px"}}>
                                 <CardActionArea >
                                     <div className={styles.item}>
                                         <div className={styles.num}>
