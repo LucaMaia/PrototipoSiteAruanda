@@ -11,6 +11,19 @@
 }
 
 .alinhamento_beneficios{
-    max-width: 100%;
+    max-width: 55%;
     margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    .alinhamento_beneficios{
+        max-width: 90%;
+    }
+}
+
+
+@media (max-width: 100px) {
+    .alinhamento_beneficios{
+        max-width: 100%;
+    }
 }

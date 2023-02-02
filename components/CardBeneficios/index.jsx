@@ -8,7 +8,6 @@ import {CardActionArea} from '@mui/material';
 export default function CardBeneficios({link}) {
     return (
         <>
-
             {link.map((item,index) => {
                 // if(!item.numeric & !item.subtitle & !item.desc & !item.textarea) return;
                 return (
@@ -41,7 +40,6 @@ export default function CardBeneficios({link}) {
                             </Card>
                         </div>
 
-
                         <div style={{display:"flex",justifyContent:"end",padding:"10px"}}>
                             <Card className={styles.card} style={{borderRadius:"20px"}}>
                                 <CardActionArea >
@@ -70,12 +68,8 @@ export default function CardBeneficios({link}) {
                             </Card>
                         </div>
                     </div>
-
                 )
             })}
-
-
-
         </>
     )
 }

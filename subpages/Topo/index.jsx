@@ -5,27 +5,27 @@ import CarouselComponent from "../../components/Caroussel";
 let carroussel = [
     {
         "title":"Site do Grupo Aruanda Capoeira",
-        "text":"Conheça mais sobre a nossa história e faça parte da nossa familia!",
+        // "text":"Conheça mais sobre a nossa história e faça parte da nossa familia!",
         "src":"/EDB2017(2).jpg"
     },
     {
         "title":"Encontro de Bambas 2017",
-        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "src":"/EDB2017(2).jpg"
     },
     {
         "title":"Encontro de Bambas 2019",
-        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "src":"/EDB2019.jpg"
     },
     {
         "title":"Encontro de Bambas 2020",
-        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "src":"/EDB.webp"
     },
     {
         "title":"Encontro de Bambas 2020",
-        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "src":"/EDB2017.jpeg"
     },
 ]
