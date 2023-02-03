@@ -27,7 +27,6 @@ export default function CardLateral({link}) {
                                 />
                             </div>
 
-
                             <CardActionArea>
                                     <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                                         <CardContent sx={{ flex: ' 0 auto' }}>
@@ -42,7 +41,7 @@ export default function CardLateral({link}) {
                                                     {item.text}
                                                 </Typography>
                                             </div>
-                                            <Button variant="outline-primary" href={item.href} style={{marginTop:"20px"}}>
+                                            <Button variant="outline-primary" href={item.href} className={styles.button_att}>
                                                 Mais informações
                                             </Button>
                                         </CardContent>

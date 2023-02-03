@@ -12,7 +12,6 @@ export default function CarouselMestres({link}) {
                {link.map((item,index) => {
                    return (
                        <Carousel.Item key={index} className={styles.alinhamento_image}>
-                           <div className={styles.espacamento}>
                                <Link href={item.href}>
                                    <ImageAvatars
                                        src={item.src}
@@ -20,7 +19,6 @@ export default function CarouselMestres({link}) {
                                        height="150"
                                    />
                                </Link>
-                           </div>
 
                            <Carousel.Caption>
                                <h3>

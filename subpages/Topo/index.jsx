@@ -46,11 +46,11 @@ let navbar = [
         "href":"/historia-aruanda",
         "number":"3"
     },
-    {
-        "name":"Por que praticar Capoeira?",
-        "href":"#capoeira",
-        "number":"4"
-    },
+    // {
+    //     "name":"Por que praticar Capoeira?",
+    //     "href":"#capoeira",
+    //     "number":"4"
+    // },
     {
         "name":"Horários",
         "href":"#horarios",

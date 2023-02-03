@@ -33,6 +33,13 @@
     margin: 0 auto;
 }
 
+
+@media (max-width: 500px) {
+    .text{
+        font-size: 23px ;
+    }
+}
+
 @media (max-width: 1500px) {
     .alinhamento_cards{
         justify-content:center;
@@ -45,6 +52,7 @@
     .alinhamento_iframe{
         padding:20px;
     }
+
 }
 
 @media (max-width: 1500px) {

@@ -26,31 +26,31 @@ let navbar = [
 ]
 
 let cardLateral = [
-    {
-        "title":"Encontro de Bambas 2018",
-        "date":"13 de janeiro a 15 de janeiro",
-        "text":"Valor do ingresso: R$ 50,00",
-        "href":"/",
-        "color":"",
-        "image":"EDB2017.jpeg"
-    },
-
-    {
-        "title":"Encontro de Bambas 2020",
-        "date":"13 de janeiro a 15 de janeiro",
-        "text":"Valor do ingresso: R$ 50,00",
-        "href":"/",
-        "color":"",
-        "image":"Michellinha.png"
-    },
-    {
-        "title":"Encontro de Bambas 2020",
-        "date":"13 de janeiro a 15 de janeiro",
-        "text":"Valor do ingresso: R$ 50,00",
-        "href":"/",
-        "color":"",
-        "image":"test.jpeg"
-    },
+    // {
+    //     "title":"Encontro de Bambas 2018",
+    //     "date":"13 de janeiro a 15 de janeiro",
+    //     "text":"Valor do ingresso: R$ 50,00",
+    //     "href":"/",
+    //     "color":"",
+    //     "image":"EDB2017.jpeg"
+    // },
+    //
+    // {
+    //     "title":"Encontro de Bambas 2020",
+    //     "date":"13 de janeiro a 15 de janeiro",
+    //     "text":"Valor do ingresso: R$ 50,00",
+    //     "href":"/",
+    //     "color":"",
+    //     "image":"Michellinha.png"
+    // },
+    // {
+    //     "title":"Encontro de Bambas 2020",
+    //     "date":"13 de janeiro a 15 de janeiro",
+    //     "text":"Valor do ingresso: R$ 50,00",
+    //     "href":"/",
+    //     "color":"",
+    //     "image":"test.jpeg"
+    // },
     {
         "title":"Encontro de Bambas 2020",
         "date":"13 de janeiro a 15 de janeiro",
@@ -121,6 +121,13 @@ let cardBootstrap = [
         "src":"/EDB.webp",
         // "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
+    {
+        "title":"Encontro de Bambas 2022",
+        "date":"15 de março a 17 de março",
+        "hour":"Valor do ingresso: R$ 50,00",
+        "src":"/EDB.webp",
+        // "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
 ]
 
 
@@ -139,15 +146,16 @@ export default function Eventos(){
                     Eventos Aruanda capoeira
                 </h1>
 
-                <div className={styles.espacamento_cardBootstrap}>
-                    <CardBootstrap link={cardBootstrap}/>
-                </div>
-
-                {/*<div className={styles.alinhamento_cards}>*/}
-                {/*    <CardLateral link={cardLateral} />*/}
+                {/*<div className={styles.espacamento_cardBootstrap}>*/}
+                {/*    <CardBootstrap link={cardBootstrap}/>*/}
                 {/*</div>*/}
-                <Footer/>
+
+                <div className={styles.alinhamento_cards}>
+                    <CardLateral link={cardLateral} />
+                </div>
             </div>
+            <Footer/>
+
         </div>
     )
 }

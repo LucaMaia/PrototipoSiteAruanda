@@ -23,7 +23,10 @@
 }
 
 .espacamento_cardBootstrap{
-    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    max-width: 100%;
 }
 
 @media (max-width: 2650px) {

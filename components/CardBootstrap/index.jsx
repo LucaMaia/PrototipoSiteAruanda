@@ -7,8 +7,7 @@ export default  function CardBootstrap({link}) {
         <>
             {link.map((item,index) => {
                 return (
-                    // <div className={styles.background}  key={index}>
-                        <Card style={{ width: '50rem'}} className={styles.card} key={index}>
+                        <Card style={{ width: '30rem'}} className={styles.card} key={index}>
                             <Card.Img variant="top" src={item.src} className={styles.image}/>
                             <Card.Body>
                                 <h2>{item.title}</h2>
@@ -23,7 +22,6 @@ export default  function CardBootstrap({link}) {
                                 </div>
                             </Card.Body>
                         </Card>
-                    // </div>
                 )
             })}
 
