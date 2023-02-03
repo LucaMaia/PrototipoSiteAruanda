@@ -20,6 +20,14 @@ export default function Icons() {
                     height="40"
                 />
             </Link>
+
+            <Link href="https://www.youtube.com/@aruandacapoeira4810" className={styles.espacamento}>
+                <ImageAvatars
+                    src="youtube.png"
+                    width="40"
+                    height="40"
+                />
+            </Link>
         </div>
     );
 }
