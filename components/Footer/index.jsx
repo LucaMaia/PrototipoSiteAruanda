@@ -29,6 +29,7 @@ export default function Footer(){
                         <Link href="" className={styles.color_link} style={{color:"white"}}>
                             Aruanda capoeira - RO
                         </Link>
+                            <br/>
                         <Link href="" className={styles.color_link} style={{color:"white"}}>
                             Aruanda capoeira - BA
                         </Link>
