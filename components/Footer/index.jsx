@@ -26,10 +26,10 @@ export default function Footer(){
                         Links rápidos
                     </div>
                     <div  className={styles.align_footer}>
-                        <Link href="" className={styles.color_link}>
+                        <Link href="" className={styles.color_link} style={{color:"white"}}>
                             Aruanda capoeira - RO
                         </Link>
-                        <Link href="" className={styles.color_link}>
+                        <Link href="" className={styles.color_link} style={{color:"white"}}>
                             Aruanda capoeira - BA
                         </Link>
                     </div>
