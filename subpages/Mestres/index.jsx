@@ -19,7 +19,7 @@ let carousselMestres = [
         "title":"Mestra Michellinha",
         "description":"Brasília - DF",
         // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "src":"/Michellinha.png",
+        "src":"/Micheline.jpeg",
         "href": "https://www.instagram.com/mestrepaulorenato/"
     },
 ]
