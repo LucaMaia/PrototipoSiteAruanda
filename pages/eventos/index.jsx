@@ -18,11 +18,6 @@ let navbar = [
         "href":"/historia-aruanda",
         "number":"2"
     },
-    {
-        "name":"Locais de Treino",
-        "href":"/locais-treino",
-        "number":"2"
-    },
 ]
 
 let cardLateral = [

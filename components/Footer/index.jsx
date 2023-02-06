@@ -5,12 +5,11 @@ import {Link} from "@mui/material";
 
 export default function Footer(){
     return(
-        <div className={styles.test2}>
+        <div>
             <footer className={styles.footer}>
                 <div className={styles.alinhamento}>
                     <Link href="/">
-                        <Image className={styles.teste}
-                               src="/logo.svg"
+                        <Image src="/logo.svg"
                                width={50}
                                height={50}
                         />
@@ -22,13 +21,19 @@ export default function Footer(){
                     <Icons/>
                 </div>
 
-                {/*<div className="container">*/}
-                {/*    <div className="row" id={styles.align_footer}>*/}
-                {/*        <div className="col">*/}
-                {/*            Locais de treino - BR*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
+                <div className="container">
+                    <div className={styles.text_align}>
+                        Links rápidos
+                    </div>
+                    <div  className={styles.align_footer}>
+                        <Link href="" className={styles.color_link}>
+                            Aruanda capoeira - RO
+                        </Link>
+                        <Link href="" className={styles.color_link}>
+                            Aruanda capoeira - BA
+                        </Link>
+                    </div>
+                </div>
 
             </footer>
         </div>

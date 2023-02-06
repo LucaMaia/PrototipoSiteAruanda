@@ -23,7 +23,7 @@
 @media (max-width: 800px) {
  .image{
   height: 40vh;
-  border-radius: 0px;
+  border-radius: 8px;
  }
 }
 

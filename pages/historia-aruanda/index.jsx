@@ -2,7 +2,6 @@ import styles from "./Historia.module.css"
 import NavbarComponent from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Head from "next/head";
-import Beneficios from "../../subpages/Beneficios";
 
 let navbar = [
     {
@@ -11,14 +10,9 @@ let navbar = [
         "number":"1"
     },
     {
-        "name":"Locais de Treino",
-        "href":"/locais-treino",
-        "number":"2"
-    },
-    {
         "name":"Eventos",
         "href":"/eventos",
-        "number":"3"
+        "number":"2"
     },
 
 ]
@@ -59,8 +53,7 @@ export default function HistoriaAruanda() {
                         </div>
                     </div>
 
-                {/*<Beneficios/>*/}
-                {/*<Footer/>*/}
+                <Footer/>
             </div>
         </>
     );

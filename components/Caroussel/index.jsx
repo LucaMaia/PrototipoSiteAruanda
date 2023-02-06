@@ -7,7 +7,7 @@ export default function CarouselComponent({link}) {
         <Carousel  >
             {link.map((item,index) => {
                 return (
-                    <Carousel.Item key={index} >
+                    <Carousel.Item key={index} style={{padding:"5px"}}>
                         <Image
                             src={item.src}
                             height="500"

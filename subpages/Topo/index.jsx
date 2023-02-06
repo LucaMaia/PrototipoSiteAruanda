@@ -4,11 +4,6 @@ import CarouselComponent from "../../components/Caroussel";
 
 let carroussel = [
     {
-        "title":"Site do Grupo Aruanda Capoeira",
-        // "text":"Conheça mais sobre a nossa história e faça parte da nossa familia!",
-        "src":"/EDB2017(2).jpg"
-    },
-    {
         "title":"Encontro de Bambas 2017",
         // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "src":"/EDB2017(2).jpg"
@@ -19,14 +14,24 @@ let carroussel = [
         "src":"/EDB2019.jpg"
     },
     {
-        "title":"Encontro de Bambas 2020",
+        "title":"Encontro nacional - Batizado 2021",
         // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "src":"/EDB.webp"
+        "src":"/EN2021.jpeg"
     },
     {
-        "title":"Encontro de Bambas 2020",
+        "title":"Encontro Internacional - 2022",
         // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "src":"/EDB2017.jpeg"
+        "src":"/EI2022.jpeg"
+    },
+    {
+        "title":"Encontro de Bambas 2022",
+        // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "src":"/EB2022.jpeg"
+    },
+    {
+        "title":"I Festival Ginga (RO) - 2022",
+        // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "src":"/ginga-ro.jpg"
     },
 ]
 
@@ -37,29 +42,19 @@ let navbar = [
         "number":"1"
     },
     {
-        "name":"Locais",
-        "href":"/locais-treino",
+        "name":"História Aruanda ",
+        "href":"/historia-aruanda",
         "number":"2"
     },
     {
-        "name":"História Aruanda ",
-        "href":"/historia-aruanda",
-        "number":"3"
-    },
-    // {
-    //     "name":"Por que praticar Capoeira?",
-    //     "href":"#capoeira",
-    //     "number":"4"
-    // },
-    {
         "name":"Horários",
         "href":"#horarios",
-        "number":"5"
+        "number":"3"
     },
     {
         "name":"Mestres da casa",
         "href":"#mestres",
-        "number":"6"
+        "number":"4"
     },
 
 ]
