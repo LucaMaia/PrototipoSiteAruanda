@@ -31,8 +31,13 @@ let carroussel = [
     {
         "title":"I Festival Ginga (RO) - 2022",
         // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "src":"/ginga-ro.jpg"
+        "src":"/ginga.jpeg"
     },
+    // {
+    //     "title":"Roda",
+    //     // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    //     "src":"/roda.jpeg"
+    // },
 ]
 
 let navbar = [
