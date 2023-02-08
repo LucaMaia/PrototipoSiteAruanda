@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import {Fade,Flip,Rotate,Zoom,Bounce,Slide,Roll,LightSpeed} from "react-reveal";
 
 // Components
 import Footer from "../components/Footer";
@@ -9,7 +10,6 @@ import Topo from "../subpages/Topo";
 import PorquePraticar from "../subpages/PorquePraticar";
 import Horarios from "../subpages/Horarios";
 import Mestres from "../subpages/Mestres";
-import Beneficios from "../subpages/Beneficios";
 
 export default function Home() {
   return (
@@ -20,10 +20,11 @@ export default function Home() {
         <link rel="icon" href="/logo.svg" />
       </Head>
 
+      <Flip>
         <Topo/>
+      </Flip>
         <PorquePraticar/>
         <Horarios/>
-        {/*<Beneficios/>*/}
         <Mestres/>
 
         <Footer/>
