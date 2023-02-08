@@ -23,7 +23,7 @@ export default function Home() {
         <Topo/>
         <PorquePraticar/>
         <Horarios/>
-        <Beneficios/>
+        {/*<Beneficios/>*/}
         <Mestres/>
 
         <Footer/>
