@@ -16,7 +16,7 @@
 
 
 .text{
-    color: black;
+    color: white;
 }
 
 .text_horarios{
@@ -26,8 +26,27 @@
 }
 
 .bg_color{
-    background-color: whitesmoke;
-    opacity: 0.9;
+    /*background-color: whitesmoke;*/
+    /*opacity: 0.9;*/
+
+    background: url("http://s2.glbimg.com/EnIzHFGrnQ48gPgJiIAY4aOH9ms=/e.glbimg.com/og/ed/f/original/2014/11/26/roda_de_capoeira1.jpg");
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
 }
 
 @media (max-width: 1000px) {

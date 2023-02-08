@@ -32,9 +32,9 @@ export default function Horarios() {
        <div className={styles.bg_color}>
            <div className={styles.text}>
                <Image src="/hora.svg" height={100} width={80}/>
-               <h2 className={styles.text_horarios} id="horarios">
-                  Horários Aruanda Brasília - DF
-               </h2>
+               {/*<h2 className={styles.text_horarios} id="horarios">*/}
+               {/*   Horários Aruanda Brasília - DF*/}
+               {/*</h2>*/}
                <p className={styles.text}>
                    Local :
                    <a className={styles.text}
