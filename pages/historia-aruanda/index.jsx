@@ -31,7 +31,7 @@ export default function HistoriaAruanda() {
             <NavbarComponent link={navbar} image="/logo.svg"/>
 
             <div className={styles.image_background}>
-                <LightSpeed left duration={2000}>
+                <LightSpeed left>
                     <div className={styles.text_historia}>
                         <h2 className={styles.title_historia}>
                             Conheça a nossa história
