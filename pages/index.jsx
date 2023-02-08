@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import {Fade,Flip,Rotate,Zoom,Bounce,Slide,Roll,LightSpeed} from "react-reveal";
 
 // Components
 import Footer from "../components/Footer";
@@ -22,12 +21,8 @@ export default function Home() {
 
         <Topo/>
         <PorquePraticar/>
-
         <Horarios/>
-
-        <Zoom duration={2000}>
-            <Mestres/>
-        </Zoom>
+        <Mestres/>
 
         <Footer/>
     </div>

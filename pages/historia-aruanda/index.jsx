@@ -3,6 +3,8 @@ import NavbarComponent from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Head from "next/head";
 
+import {Fade,Flip,Rotate,Zoom,Bounce,Slide,Roll,LightSpeed} from "react-reveal";
+
 let navbar = [
     {
         "name":"Página Principal",
@@ -29,6 +31,7 @@ export default function HistoriaAruanda() {
             <NavbarComponent link={navbar} image="/logo.svg"/>
 
             <div className={styles.image_background}>
+                <LightSpeed left duration={2000}>
                     <div className={styles.text_historia}>
                         <h2 className={styles.title_historia}>
                             Conheça a nossa história
@@ -52,6 +55,8 @@ export default function HistoriaAruanda() {
                             </p>
                         </div>
                     </div>
+                </LightSpeed>
+
 
                 <Footer/>
             </div>

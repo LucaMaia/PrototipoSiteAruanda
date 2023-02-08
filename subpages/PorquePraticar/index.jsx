@@ -3,8 +3,6 @@ import {Button} from "react-bootstrap";
 
 import {Fade,Flip,Rotate,Zoom,Bounce,Slide,Roll,LightSpeed} from "react-reveal";
 
-
-
 export default function PorquePraticar(){
     return(
         <>
