@@ -61,4 +61,7 @@
         font-size: 22px;
     }
 
+    .bg_color{
+        height: 100vh !important;
+    }
 }
