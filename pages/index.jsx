@@ -20,12 +20,14 @@ export default function Home() {
         <link rel="icon" href="/logo.svg" />
       </Head>
 
-      <Flip>
         <Topo/>
-      </Flip>
         <PorquePraticar/>
+
         <Horarios/>
-        <Mestres/>
+
+        <Zoom duration={2000}>
+            <Mestres/>
+        </Zoom>
 
         <Footer/>
     </div>

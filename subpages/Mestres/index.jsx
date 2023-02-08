@@ -2,6 +2,8 @@ import styles from "./Mestres.module.css";
 import {Button} from "react-bootstrap";
 import CarouselMestres from "../../components/CarousselMestres";
 
+import {Fade,Flip,Rotate,Zoom,Bounce,Slide,Roll,LightSpeed} from "react-reveal";
+
 let carousselMestres = [
     {
         "title":"Mestre Paulo Renato",
@@ -27,16 +29,18 @@ let carousselMestres = [
 export default function Mestres() {
     return (
         <div className={styles.text}>
-            <h2 className={styles.text_mestres} id="mestres">
-                Mestres da casa
-            </h2>
-            <CarouselMestres link={carousselMestres}/>
+            <Zoom duration={2000}>
+                <h2 className={styles.text_mestres} id="mestres">
+                    Mestres da casa
+                </h2>
+                <CarouselMestres link={carousselMestres}/>
 
-            <div className={styles.alinhamento_button}>
-                <Button variant="danger" href="" className={styles.button}>
-                    Começar agora
-                </Button>
-            </div>
+                <div className={styles.alinhamento_button}>
+                    <Button variant="danger" href="" className={styles.button}>
+                        Começar agora
+                    </Button>
+                </div>
+            </Zoom>
         </div>
     );
 }
