@@ -49,7 +49,7 @@
     border-radius: 6px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .alinhamento{
         display:flex;
         flex-wrap:wrap;
