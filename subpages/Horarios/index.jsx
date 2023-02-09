@@ -29,9 +29,9 @@ let miniCards = [
     {
         "label": "TER/QUIN",
         "text": "Graduado Luciano",
-        "hour":"19:30 ás 20:30",
+        "hour":"19:00 ás 20:00",
         "backgroundColor":"white",
-        "href":"https://wa.me/5561983439530",
+        "href":"https://wa.me/5561981766652",
 
     },
 ]
