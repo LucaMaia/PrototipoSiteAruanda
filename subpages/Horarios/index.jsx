@@ -31,7 +31,7 @@ let miniCards = [
 export default function Horarios() {
     return (
        <div className={styles.bg_color}>
-           <Flip>
+           <Roll>
                <div className={styles.text}>
                    <Image src="/hora.svg" height={100} width={80}/>
                    {/*<h2 className={styles.text_horarios} id="horarios">*/}
@@ -62,7 +62,7 @@ export default function Horarios() {
                        )
                    })}
                </div>
-           </Flip>
+           </Roll>
 
        </div>
     );

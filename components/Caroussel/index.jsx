@@ -2,7 +2,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import styles from"./Caroussel.module.css"
 import Image from "next/image";
 
-import {Fade,Flip,Rotate,Zoom,Bounce,Slide,Roll,LightSpeed} from "react-reveal";
 
 export default function CarouselComponent({link}) {
     return (
@@ -10,7 +9,6 @@ export default function CarouselComponent({link}) {
             {link.map((item,index) => {
                 return (
                     <Carousel.Item key={index} style={{padding:"5px"}}>
-                        <Flip>
                             <Image
                                 src={item.src}
                                 height="500"
@@ -27,7 +25,6 @@ export default function CarouselComponent({link}) {
                                 <h3>{item.title}</h3>
                                 <p>{item.text}</p>
                             </div>
-                        </Flip>
 
                     </Carousel.Item>
                 )
