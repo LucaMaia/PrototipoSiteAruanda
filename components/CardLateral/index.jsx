@@ -45,7 +45,7 @@ export default function CardLateral({link}) {
                                                 </Typography>
                                             </div>
                                             <Button variant="outline-primary" href={item.href} className={styles.button_att}>
-                                                Mais informações
+                                                Comprar ingresso
                                             </Button>
                                         </CardContent>
                                     </Box>
