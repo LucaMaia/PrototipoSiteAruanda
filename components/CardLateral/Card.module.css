@@ -42,10 +42,6 @@
     .card_limite{
         width: 30%;
     }
-    #test{
-        display: none;
-    }
-
 }
 
 @media (max-width: 800px) {
@@ -61,6 +57,10 @@
 
     #test{
         display: none;
+    }
+
+    .button_att{
+        width: 100%;
     }
 }
 
