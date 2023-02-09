@@ -16,7 +16,7 @@ export default function CardLateral({link}) {
         <div>
             {link.map((item,index) => {
                 return (
-                    <div style={{margin:"20px"}} key={index}>
+                    <div style={{margin:"20px 0px"}} key={index}>
                         <Card  className={styles.size}  style={{backgroundColor:item.color}} >
                             <div className={styles.card_limite}>
                                 <CardMedia

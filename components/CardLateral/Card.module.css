@@ -24,7 +24,7 @@
     .size{
         width: auto;
         height:auto;
-        margin: 10px auto;
+        margin: auto;
     }
 
     .card_limite{
@@ -38,7 +38,7 @@
     .size{
         width: 60%;
         height: auto;
-        margin: 10px auto;
+        margin: auto;
         display: block;
     }
     .card_limite{
@@ -57,7 +57,7 @@
     .size{
         width: 100%;
         height: auto;
-        margin: 10px auto;
+        margin: auto;
         display: block;
     }
     .card_limite{
