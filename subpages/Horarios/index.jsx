@@ -30,7 +30,7 @@ let miniCards = [
 
 export default function Horarios() {
     return (
-       <div className={styles.bg_color}>
+       <div className={styles.bg_color} id="horarios">
            <Zoom top={2000} left={3000} duration={2000}>
                <div className={styles.text}>
                    <Image src="/hora.svg" height={100} width={80}/>
