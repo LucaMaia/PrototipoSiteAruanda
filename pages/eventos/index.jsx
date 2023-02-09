@@ -52,7 +52,7 @@ let cardLateral = [
         "text":"Valor do ingresso: R$ 50,00",
         "href":"/",
         "color":"",
-        "image":"fundo 1.svg"
+        "image":"1.jpg"
     },
     {
         "title":"Encontro de Bambas 2020",
@@ -60,7 +60,7 @@ let cardLateral = [
         "text":"Valor do ingresso: R$ 50,00",
         "href":"/",
         "color":"",
-        "image":"insta.png"
+        "image":"2.jpg"
     },
     {
         "title":"Encontro de Bambas 2020",
@@ -68,7 +68,7 @@ let cardLateral = [
         "text":"Valor do ingresso: R$ 50,00",
         "href":"/",
         "color":"",
-        "image":"logo.svg"
+        "image":"3.jpg"
     },
     {
         "title":"Encontro de Bambas 2020",
@@ -76,7 +76,7 @@ let cardLateral = [
         "text":"Valor do ingresso: R$ 50,00",
         "href":"/",
         "color":"",
-        "image":"EDB.webp"
+        "image":"4.jpg"
     },
 ]
 
