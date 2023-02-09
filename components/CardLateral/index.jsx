@@ -10,6 +10,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import {CardActionArea} from "@mui/material";
 
+import {Fade,Flip,Rotate,Zoom,Bounce,Slide,Roll,LightSpeed} from "react-reveal";
+
 
 export default function CardLateral({link}) {
     return (
@@ -17,17 +19,18 @@ export default function CardLateral({link}) {
             {link.map((item,index) => {
                 return (
                     <div style={{margin:"20px 0px"}} key={index}>
-                        <Card  className={styles.size}  style={{backgroundColor:item.color}} >
-                            <div className={styles.card_limite}>
-                                <CardMedia
-                                    component="img"
-                                    className={styles.card}
-                                    image={item.image}
-                                    alt="Live from space album cover"
-                                />
-                            </div>
+                        <Fade>
+                            <Card  className={styles.size}  style={{backgroundColor:item.color}} >
+                                <div className={styles.card_limite}>
+                                    <CardMedia
+                                        component="img"
+                                        className={styles.card}
+                                        image={item.image}
+                                        alt="Live from space album cover"
+                                    />
+                                </div>
 
-                            <CardActionArea>
+                                <CardActionArea>
                                     <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                                         <CardContent sx={{ flex: ' 0 auto' }}>
                                             <Typography component="div" variant="h5">
@@ -47,7 +50,9 @@ export default function CardLateral({link}) {
                                         </CardContent>
                                     </Box>
                                 </CardActionArea>
-                        </Card>
+                            </Card>
+                        </Fade>
+
                     </div>
                 )
             })}
