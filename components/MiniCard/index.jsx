@@ -2,7 +2,6 @@ import * as React from 'react';
 import styles from "./MiniCard.module.css"
 import {Button} from "react-bootstrap";
 
-
 //MUI
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';

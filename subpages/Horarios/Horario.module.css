@@ -7,11 +7,12 @@
 .alinhamento{
     text-align:center;
     margin:20px auto;
-    width:65vw;
+    width:75vw;
     height:auto;
     border-radius:20px;
     display:flex;
     justify-content:center;
+    border:1px solid red
 }
 
 
@@ -49,7 +50,7 @@
     border-radius: 6px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
     .alinhamento{
         display:flex;
         flex-wrap:wrap;

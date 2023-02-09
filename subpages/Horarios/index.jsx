@@ -26,6 +26,14 @@ let miniCards = [
         "href":"https://wa.me/5561983439530",
 
     },
+    {
+        "label": "TER/QUIN",
+        "text": "Graduado Luciano",
+        "hour":"19:30 ás 20:30",
+        "backgroundColor":"white",
+        "href":"https://wa.me/5561983439530",
+
+    },
 ]
 
 export default function Horarios() {
