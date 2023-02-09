@@ -19,7 +19,7 @@ export default function CardLateral({link}) {
             {link.map((item,index) => {
                 return (
                     <div style={{margin:"20px 0px"}} key={index}>
-                        <Fade>
+                        <Fade duration={3000}>
                             <Card  className={styles.size}  style={{backgroundColor:item.color}} >
                                 <div className={styles.card_limite}>
                                     <CardMedia
