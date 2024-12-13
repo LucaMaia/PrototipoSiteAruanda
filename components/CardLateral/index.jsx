@@ -17,7 +17,7 @@ export default function CardLateral({link}) {
     return (
         <div style={{height: "60%" }}>
         {link.map((item, index) => {
-            const isPDF = item.href.endsWith('.pdf'); // Verifica se o link termina com '.pdf'
+            const isPDFOrDocx = item.href && (item.href.toLowerCase().endsWith('.pdf') || item.href.toLowerCase().endsWith('.docx'));
             
             return (
                 <div style={{ margin: "20px 0px"}} key={index}>
@@ -48,13 +48,13 @@ export default function CardLateral({link}) {
                                         </div>
                                         <Button
                                                 variant="primary"
-                                                href={isPDF ? item.href : undefined} // Apenas fornece o link se for um PDF
-                                                target={isPDF ? "_blank" : undefined} // Abre em nova aba se for PDF
-                                                rel={isPDF ? "noopener noreferrer" : undefined} // Segurança para links externos
+                                                href={isPDFOrDocx ? item.href : undefined} // Apenas fornece o link se for um PDF
+                                                target={isPDFOrDocx ? "_blank" : undefined} // Abre em nova aba se for PDF
+                                                rel={isPDFOrDocx ? "noopener noreferrer" : undefined} // Segurança para links externos
                                                 className={styles.button_att}
-                                                disabled={!isPDF} // Desabilita o botão se não for PDF
+                                                disabled={!isPDFOrDocx} // Desabilita o botão se não for PDF
                                             >
-                                                {isPDF ? "Visualizar planilha de custos" : "Compra indisponível"}
+                                                {isPDFOrDocx ? "Visualizar planilha de custos" : "Compra indisponível"}
                                             </Button>
                                     </CardContent>
                                 </Box>
