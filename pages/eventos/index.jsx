@@ -39,7 +39,7 @@ let cardLateral = [
     {
         "title":"Papo de Capoeira III",
         "date":"10 a 12 de Dezembro (2024)",
-        "text":"Emenda Parlamentar",
+        "text":"Valor do ingresso: R$ 60,00",
         "href":"",
         "color":"",
         "image":"PapoDeCapoeira3.jpeg"
