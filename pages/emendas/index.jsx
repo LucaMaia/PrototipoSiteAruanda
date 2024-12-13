@@ -27,7 +27,7 @@ let navbar = [
 let cardLateral = [
     {
         "title":"Papo de Capoeira III",
-        "date":"10 a 12 de Dezembro (2024)",
+        "date":"01 e 02 de novembro (2024)",
         "text":"Emenda Parlamentar",
         "href":"/PlanilhaCustosPapoCapoeira3.xlsx",
         "color":"",
