@@ -1,7 +1,6 @@
 import styles from "./Horario.module.css";
 import MiniCard from "../../components/MiniCard";
 import Image from "next/image";
-import {Fade,Flip,Rotate,Zoom,Bounce,Slide,Roll,LightSpeed} from "react-reveal";
 
 let miniCards = [
     {
@@ -39,7 +38,6 @@ let miniCards = [
 export default function Horarios() {
     return (
        <div className={styles.bg_color} id="horarios">
-           <Zoom top={2000} left={3000} duration={2000}>
                <div className={styles.text}>
                    <Image src="/hora.svg" height={100} width={80}/>
                    {/*<h2 className={styles.text_horarios} id="horarios">*/}
@@ -70,7 +68,6 @@ export default function Horarios() {
                        )
                    })}
                </div>
-           </Zoom>
 
        </div>
     );

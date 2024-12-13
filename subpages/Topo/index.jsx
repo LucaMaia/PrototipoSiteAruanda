@@ -57,7 +57,7 @@ let navbar = [
         "number":"4"
     },
     {
-        "name":"Transparência: recursos de emendas de 2024 recebidos pelo MIR",
+        "name":"Transparência das emendas",
         "href":"/emendas",
         "number":"4"
     },
