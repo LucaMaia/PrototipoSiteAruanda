@@ -2,7 +2,7 @@ import styles from "./Mestres.module.css";
 import {Button} from "react-bootstrap";
 import CarouselMestres from "../../components/CarousselMestres";
 
-import {Fade,Flip,Rotate,Zoom,Bounce,Slide,Roll,LightSpeed} from "react-reveal";
+import { Zoom } from "react-reveal";
 
 let carousselMestres = [
     {

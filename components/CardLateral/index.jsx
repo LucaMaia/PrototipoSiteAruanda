@@ -17,7 +17,7 @@ export default function CardLateral({link}) {
     return (
         <div style={{height: "60%" }}>
         {link.map((item, index) => {
-            const isPDFOrDocx = item.href && (item.href.toLowerCase().endsWith('.pdf') || item.href.toLowerCase().endsWith('.docx'));
+            const isPDFOrDocx = item.href && (item.href.toLowerCase().endsWith('.pdf') || item.href.toLowerCase().endsWith('.docx') || item.href.toLowerCase().endsWith('.xlsx'));
             
             return (
                 <div style={{ margin: "20px 0px"}} key={index}>

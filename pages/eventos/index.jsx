@@ -4,7 +4,6 @@ import styles from "./Evento.module.css"
 // Components
 import NavbarComponent from "../../components/Navbar";
 import CardLateral from "../../components/CardLateral";
-import Footer from "../../components/Footer";
 
 let navbar = [
     {
@@ -17,6 +16,11 @@ let navbar = [
         "href":"/historia-aruanda",
         "number":"2"
     },
+    {
+        "name":"Transparência: recursos de emendas de 2024 recebidos pelo MIR",
+        "href":"/emendas",
+        "number":"3"
+    },
 ]
 
 let cardLateral = [
@@ -24,7 +28,7 @@ let cardLateral = [
         "title":"Papo de Capoeira I",
         "date":"10 a 12 de Dezembro (2021)",
         "text":"Emenda Parlamentar",
-        "href":"/PapoCapoeira1.docx",
+        "href":"",
         "color":"",
         "image":"PapoDeCapoeira1.jpeg"
     },
@@ -35,14 +39,6 @@ let cardLateral = [
         "href":"",
         "color":"",
         "image":"4.jpg"
-    },
-    {
-        "title":"Papo de Capoeira III",
-        "date":"10 a 12 de Dezembro (2024)",
-        "text":"Emenda Parlamentar",
-        "href":"/PlanilhaCustosPapoCapoeira3.pdf",
-        "color":"",
-        "image":"PapoDeCapoeira3.jpeg"
     },
     
 ]

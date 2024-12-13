@@ -3,7 +3,7 @@ import NavbarComponent from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Head from "next/head";
 
-import {Fade,Flip,Rotate,Zoom,Bounce,Slide,Roll,LightSpeed} from "react-reveal";
+import {LightSpeed} from "react-reveal";
 
 let navbar = [
     {
@@ -15,6 +15,11 @@ let navbar = [
         "name":"Eventos",
         "href":"/eventos",
         "number":"2"
+    },
+    {
+        "name":"Transparência: recursos de emendas de 2024 recebidos pelo MIR",
+        "href":"/emendas",
+        "number":"3"
     },
 
 ]

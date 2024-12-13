@@ -1,6 +1,5 @@
 import styles from "./Beneficios.module.css";
 import CardBeneficios from "../../components/CardBeneficios";
-import {Button} from "react-bootstrap";
 
 let cardBeneficios = [
     {
@@ -51,13 +50,6 @@ export default function Beneficios() {
             <div className={styles.alinhamento_beneficios}>
                 <CardBeneficios link={cardBeneficios}/>
             </div>
-
-
-            {/*<div className={styles.alinhamento_button}>*/}
-            {/*    <Button variant="danger">*/}
-            {/*        Começar agora*/}
-            {/*    </Button>*/}
-            {/*</div>*/}
         </>
     );
 }
