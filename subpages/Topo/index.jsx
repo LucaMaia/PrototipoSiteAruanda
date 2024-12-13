@@ -33,11 +33,6 @@ let carroussel = [
         // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "src":"/ginga.jpeg"
     },
-    // {
-    //     "title":"Roda",
-    //     // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    //     "src":"/roda.jpeg"
-    // },
 ]
 
 let navbar = [
@@ -68,17 +63,6 @@ export default function Topo(){
     return(
         <>
             <NavbarComponent link={navbar} image="/logo.svg"/>
-
-            {/*<div id="navBar" className={styles.alinhamento_image}>*/}
-            {/*    <Image*/}
-            {/*        src="/EDB2019.jpg"*/}
-            {/*        width="800"*/}
-            {/*        height="500"*/}
-            {/*        alt="fundo"*/}
-            {/*        priority*/}
-            {/*        className={styles.image}*/}
-            {/*    />*/}
-            {/*</div>*/}
 
             <div className={styles.caroussel}>
                 <div style={{paddingTop:"110px"}}>

@@ -4,7 +4,6 @@ import styles from "./Evento.module.css"
 // Components
 import NavbarComponent from "../../components/Navbar";
 import CardLateral from "../../components/CardLateral";
-import CardBootstrap from "../../components/CardBootstrap";
 import Footer from "../../components/Footer";
 
 let navbar = [
@@ -21,110 +20,32 @@ let navbar = [
 ]
 
 let cardLateral = [
-    // {
-    //     "title":"Encontro de Bambas 2018",
-    //     "date":"13 de janeiro a 15 de janeiro",
-    //     "text":"Valor do ingresso: R$ 50,00",
-    //     "href":"/",
-    //     "color":"",
-    //     "image":"EDB2017.jpeg"
-    // },
-    //
-    // {
-    //     "title":"Encontro de Bambas 2020",
-    //     "date":"13 de janeiro a 15 de janeiro",
-    //     "text":"Valor do ingresso: R$ 50,00",
-    //     "href":"/",
-    //     "color":"",
-    //     "image":"Michellinha.png"
-    // },
-    // {
-    //     "title":"Encontro de Bambas 2020",
-    //     "date":"13 de janeiro a 15 de janeiro",
-    //     "text":"Valor do ingresso: R$ 50,00",
-    //     "href":"/",
-    //     "color":"",
-    //     "image":"test.jpeg"
-    // },
     {
-        "title":"Encontro de Bambas 2020",
-        "date":"13 de janeiro a 15 de janeiro",
-        "text":"Valor do ingresso: R$ 50,00",
-        "href":"/",
+        "title":"Papo de Capoeira I",
+        "date":"10 a 12 de Dezembro (2021)",
+        "text":"Emenda Parlamentar",
+        "href":"/PlanilhaCustos.pdf",
         "color":"",
-        "image":"1.jpg"
+        "image":"PapoDeCapoeira1.jpeg"
     },
     {
-        "title":"Encontro de Bambas 2020",
-        "date":"13 de janeiro a 15 de janeiro",
+        "title":"Encontro de Bambas",
+        "date":"08 a 10 de Julho (2022)",
         "text":"Valor do ingresso: R$ 50,00",
-        "href":"/",
-        "color":"",
-        "image":"2.jpg"
-    },
-    {
-        "title":"Encontro de Bambas 2020",
-        "date":"13 de janeiro a 15 de janeiro",
-        "text":"Valor do ingresso: R$ 50,00",
-        "href":"/",
-        "color":"",
-        "image":"3.jpg"
-    },
-    {
-        "title":"Encontro de Bambas 2020",
-        "date":"13 de janeiro a 15 de janeiro",
-        "text":"Valor do ingresso: R$ 50,00",
-        "href":"/",
+        "href":"",
         "color":"",
         "image":"4.jpg"
     },
+    {
+        "title":"Papo de Capoeira III",
+        "date":"10 a 12 de Dezembro (2024)",
+        "text":"Emenda Parlamentar",
+        "href":"",
+        "color":"",
+        "image":"PapoDeCapoeira3.jpeg"
+    },
+    
 ]
-
-let cardBootstrap = [
-    {
-        "title":"Encontro de Bambas 2022",
-        "date":"15 de março a 17 de março",
-        "hour":"Valor do ingresso: R$ 50,00",
-        "src":"/EDB2017.jpeg",
-        // "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        "title":"Encontro de Bambas 2022",
-        "date":"15 de março a 17 de março",
-        "hour":"Valor do ingresso: R$ 50,00",
-        "src":"/EDB2017(2).jpg",
-        // "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        "title":"Encontro de Bambas 2022",
-        "date":"15 de março a 17 de março",
-        "hour":"Valor do ingresso: R$ 50,00",
-        "src":"/test.jpeg",
-        // "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        "title":"Encontro de Bambas 2022",
-        "date":"15 de março a 17 de março",
-        "hour":"Valor do ingresso: R$ 50,00",
-        "src":"/EDB.webp",
-        // "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        "title":"Encontro de Bambas 2022",
-        "date":"15 de março a 17 de março",
-        "hour":"Valor do ingresso: R$ 50,00",
-        "src":"/EDB.webp",
-        // "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        "title":"Encontro de Bambas 2022",
-        "date":"15 de março a 17 de março",
-        "hour":"Valor do ingresso: R$ 50,00",
-        "src":"/EDB.webp",
-        // "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-]
-
 
 export default function Eventos(){
     return(
@@ -140,10 +61,6 @@ export default function Eventos(){
                 <h1 className={styles.text}>
                     Eventos Aruanda capoeira
                 </h1>
-
-                {/*<div className={styles.espacamento_cardBootstrap}>*/}
-                {/*    <CardBootstrap link={cardBootstrap}/>*/}
-                {/*</div>*/}
 
                 <div className={styles.alinhamento_cards}>
                     <CardLateral link={cardLateral} />

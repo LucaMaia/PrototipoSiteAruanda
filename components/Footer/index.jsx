@@ -21,7 +21,7 @@ export default function Footer(){
                     <Icons/>
                 </div>
 
-                <div className="container">
+                {/* <div className="container">
                     <div className={styles.text_align}>
                         Links rápidos
                     </div>
@@ -34,7 +34,7 @@ export default function Footer(){
                             Aruanda capoeira - BA
                         </Link>
                     </div>
-                </div>
+                </div> */}
 
             </footer>
         </div>
