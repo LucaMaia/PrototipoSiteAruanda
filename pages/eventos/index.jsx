@@ -66,7 +66,6 @@ export default function Eventos(){
                     <CardLateral link={cardLateral} />
                 </div>
             </div>
-            <Footer/>
 
         </div>
     )
