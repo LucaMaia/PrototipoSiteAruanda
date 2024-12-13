@@ -52,13 +52,13 @@ let navbar = [
         "number":"3"
     },
     {
-        "name":"Transparência: recursos de emendas de 2024 recebidos pelo MIR",
-        "href":"/emendas",
+        "name":"Mestres da casa",
+        "href":"#mestres",
         "number":"4"
     },
     {
-        "name":"Mestres da casa",
-        "href":"#mestres",
+        "name":"Transparência: recursos de emendas de 2024 recebidos pelo MIR",
+        "href":"/emendas",
         "number":"4"
     },
 

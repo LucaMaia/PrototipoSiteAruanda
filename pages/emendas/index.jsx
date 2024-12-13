@@ -52,11 +52,21 @@ export default function EmandasParlamentares() {
             <h2 className={styles.title_historia}>
                 Recursos de emendas de 2024 recebidos pelo MIR
             </h2>
-
+            <p className={styles.text_link}>
+                Para mais informações,{" "}
+                <a 
+                    href="https://clusterqap2.economia.gov.br/extensions/painel-transferencias-discricionarias-e-legais/painel-transferencias-discricionarias-e-legais.html" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className={styles.link}
+                >
+                    acesse o link
+                </a>.
+            </p>
             <div className={styles.espacamento}>
                 <CardLateral link={cardLateral} />
             </div>
-                      
+
         </div>
     </>
 
