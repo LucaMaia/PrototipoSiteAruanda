@@ -24,7 +24,7 @@ let cardLateral = [
         "title":"Papo de Capoeira I",
         "date":"10 a 12 de Dezembro (2021)",
         "text":"Emenda Parlamentar",
-        "href":"/PlanilhaCustosPapoCapoeira3.pdf",
+        "href":"/PapoCapoeira1.docx",
         "color":"",
         "image":"PapoDeCapoeira1.jpeg"
     },
@@ -40,7 +40,7 @@ let cardLateral = [
         "title":"Papo de Capoeira III",
         "date":"10 a 12 de Dezembro (2024)",
         "text":"Emenda Parlamentar",
-        "href":"/PapoCapoeira1.docx",
+        "href":"/PlanilhaCustosPapoCapoeira3.pdf",
         "color":"",
         "image":"PapoDeCapoeira3.jpeg"
     },
