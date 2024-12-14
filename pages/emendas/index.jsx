@@ -55,7 +55,7 @@ export default function EmandasParlamentares() {
             <p className={styles.text_link}>
                 Para mais informações,{" "}
                 <a 
-                    href="https://clusterqap2.economia.gov.br/extensions/painel-transferencias-discricionarias-e-legais/painel-transferencias-discricionarias-e-legais.html" 
+                    href="https://discricionarias.transferegov.sistema.gov.br/voluntarias/ConsultarProposta/ResultadoDaConsultaDePropostaDetalharProposta.do?idProposta=1971653&Usr=guest&Pwd=guest" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className={styles.link}
