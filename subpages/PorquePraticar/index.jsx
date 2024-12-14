@@ -23,16 +23,6 @@ export default function PorquePraticar(){
                             os alunos tomam consciência do seu corpo e de suas capacidades motoras, facilitando o crescimento cognitivo e afetivo.
                         </p>
                     </div>
-
-                    <div className={styles.alinhamento_button}>
-                        <Button
-                            variant="danger"
-                            href=""
-                            className={styles.button}
-                        >
-                            Começar agora
-                        </Button>
-                    </div>
                 </Slide>
 
             </div>

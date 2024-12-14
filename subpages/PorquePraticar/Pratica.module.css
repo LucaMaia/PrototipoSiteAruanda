@@ -20,13 +20,6 @@
     margin: 0 auto;
 }
 
-.alinhamento_button{
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-    font-size: 40px;
-}
-
 .button{
     font-size: 25px;
 }

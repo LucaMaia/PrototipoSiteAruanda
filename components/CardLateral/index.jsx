@@ -56,7 +56,8 @@ export default function CardLateral({link}) {
                                             >
                                                 {isPDFOrDocx ? "Visualizar planilha de custos" : "Compra indisponível"}
                                             </Button>
-
+                                            { 
+                                            isPDFOrDocx ? 
                                             <p className={styles.text_link}>
                                                 Para mais informações,{" "}
                                                 <a 
@@ -68,6 +69,9 @@ export default function CardLateral({link}) {
                                                     acesse o link
                                                 </a>.
                                             </p>
+                                            : 
+                                            ""
+                                            }  
                                     </CardContent>
                                 </Box>
                             </CardActionArea>

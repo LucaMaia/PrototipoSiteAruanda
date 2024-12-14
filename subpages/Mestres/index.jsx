@@ -34,12 +34,6 @@ export default function Mestres() {
                     Mestres da casa
                 </h2>
                 <CarouselMestres link={carousselMestres}/>
-
-                <div className={styles.alinhamento_button}>
-                    <Button variant="danger" href="" className={styles.button}>
-                        Começar agora
-                    </Button>
-                </div>
             </Zoom>
         </div>
     );
