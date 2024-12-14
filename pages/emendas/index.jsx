@@ -32,8 +32,7 @@ let cardLateral = [
         "href":"/PlanilhaCustosPapoCapoeira3.xlsx",
         "color":"",
         "image":"PapoDeCapoeira3.jpeg"
-    },
-    
+    }
 ]
 
 export default function EmandasParlamentares() {
