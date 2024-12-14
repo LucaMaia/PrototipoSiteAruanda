@@ -17,13 +17,6 @@
     margin: 0 auto;
 }
 
-.text_link{
-    text-align:center;
-    color: white;
-    margin: 0 auto;
-}
-
-
 .image_background{
     background-image: url("/fundo 1.svg");
     max-width: 100vw;

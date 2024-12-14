@@ -19,6 +19,11 @@
     width: 25%;
 }
 
+.text_link{
+    margin-top: 10px;
+}
+
+
 @media (max-width: 1800px) {
     .size{
         width: auto;
