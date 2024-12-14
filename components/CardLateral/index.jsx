@@ -58,7 +58,7 @@ export default function CardLateral({link}) {
                                             { 
                                             isPDFOrDocx ? 
                                             <p className={styles.text_link}>
-                                                Para mais informações
+                                                Para mais informações,{" "}
                                                 <a 
                                                     href="https://discricionarias.transferegov.sistema.gov.br/voluntarias/ConsultarProposta/ResultadoDaConsultaDePropostaDetalharProposta.do?idProposta=1971653&Usr=guest&Pwd=guest" 
                                                     target="_blank" 
