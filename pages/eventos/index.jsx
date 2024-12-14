@@ -39,8 +39,7 @@ let cardLateral = [
         "href":"",
         "color":"",
         "image":"4.jpg"
-    },
-    
+    }
 ]
 
 export default function Eventos(){
