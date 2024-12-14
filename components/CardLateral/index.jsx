@@ -22,7 +22,7 @@ export default function CardLateral({link}) {
             return (
                 <div style={{ margin: "20px 0px"}} key={index}>
                     <Fade duration={3000}>
-                        <Card className={styles.size} style={{ backgroundColor: item.color }}>
+                        <Card className={styles.size} style={{ backgroundColor: item.color }} >
                             <div className={styles.card_limite}>
                                 <CardMedia
                                     component="img"
@@ -31,7 +31,6 @@ export default function CardLateral({link}) {
                                     alt="Live from space album cover"
                                 />
                             </div>
-
                             <CardActionArea>
                                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                                     <CardContent sx={{ flex: '0 auto' }}>
