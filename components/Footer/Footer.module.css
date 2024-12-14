@@ -6,16 +6,6 @@
     /*opacity: 0.6;*/
 }
 
-
-.alinhamento{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    border-bottom: 1px solid #eaeaea;
-    max-width: 80%;
-    padding: 10px;
-}
-
 .text_align{
     text-align: center;
     font-size: 18px;

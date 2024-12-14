@@ -4,6 +4,11 @@ import CarouselComponent from "../../components/Caroussel";
 
 let carroussel = [
     {
+        "title":"Papo de capoeira I - 2021",
+        // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "src":"/PapoDeCapoeira.jpg"
+    },
+    {
         "title":"Encontro de Bambas 2017",
         // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "src":"/EDB2017(2).jpg"
@@ -19,7 +24,7 @@ let carroussel = [
         "src":"/EN2021.jpeg"
     },
     {
-        "title":"Encontro Internacional - 2022",
+        "title":"Encontro Internacional 2022",
         // "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "src":"/EI2022.jpeg"
     },
