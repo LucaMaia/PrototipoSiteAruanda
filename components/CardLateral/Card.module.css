@@ -23,6 +23,9 @@
     margin-top: 10px;
 }
 
+.card_wrapper{
+    margin: 10px;
+}
 
 @media (max-width: 1800px) {
     .size{
