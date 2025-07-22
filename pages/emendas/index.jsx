@@ -32,6 +32,14 @@ const cardLateral = [
         "href": "/PlanilhaCustosPapoCapoeira3.xlsx",
         "color": "",
         "image": "PapoDeCapoeira3.jpeg"
+    },
+    {
+        "title": "Capoeira Brasilia Fest",
+        "date": "25 de novembro (2025)",
+        "text": "Emenda Parlamentar",
+        "href": "/PlanilhaCustosCapoeriaBrasileiraFestival.xlsx",
+        "color": "",
+        "image": "CapoeiraBrasiliaFest.jpeg"
     }
 ];
 
